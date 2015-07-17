@@ -1,0 +1,13 @@
+bin\Debug\BattleForm.exe
+bin\Debug\BattleForm.pdb
+bin\Debug\SmoothProgressBar.dll
+bin\Debug\SmoothProgressBar.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BattleForm.frmBattle.resources
+obj\Debug\BattleForm.frmGameMain.resources
+obj\Debug\BattleForm.Properties.Resources.resources
+obj\Debug\Battle20.csproj.GenerateResource.Cache
+obj\Debug\BattleForm.exe
+obj\Debug\BattleForm.pdb
+bin\Debug\SmoothProgressBar.xml
+bin\Debug\BattleForm.xml

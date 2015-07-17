@@ -1,0 +1,43 @@
+﻿<project schemaVersion="1.6.0.1">
+    <assemblies>
+        <assembly assemblyPath=".\BattleForm\bin\Debug\BattleForm.exe" xmlCommentsPath=".\BattleForm\bin\Debug\BattleForm.xml" commentsOnly="False" />
+        <assembly assemblyPath="..\SmoothProgressBar\SmoothProgressBar\bin\Release\SmoothProgressBar.dll" xmlCommentsPath="..\SmoothProgressBar\SmoothProgressBar\bin\Release\SmoothProgressBar.xml" commentsOnly="False" />
+    </assemblies>
+    <ProjectSummary>Edjimon is a pet project that you'll find exceptionally similar to Pokemon. It was in design years ago by a friend; it then died. I revived the project and this is what it has become.</ProjectSummary>
+    <MissingTags>Summary, Parameter, Returns, Value, Remarks, AutoDocumentCtors, Namespace</MissingTags>
+    <VisibleItems>Attributes, InheritedMembers, InheritedFrameworkMembers, Privates, Protected, ProtectedInternalAsProtected, SealedProtected, PrivateFields</VisibleItems>
+    <HtmlHelp1xCompilerPath path="" />
+    <HtmlHelp2xCompilerPath path="" />
+    <OutputPath>.\Help\</OutputPath>
+    <SandcastlePath path="" />
+    <WorkingPath path="" />
+    <CleanIntermediates>True</CleanIntermediates>
+    <KeepLogFile>True</KeepLogFile>
+    <HelpFileFormat>HtmlHelp1x</HelpFileFormat>
+    <PurgeDuplicateTopics>True</PurgeDuplicateTopics>
+    <CppCommentsFixup>False</CppCommentsFixup>
+    <FrameworkVersion>2.0.50727</FrameworkVersion>
+    <BinaryTOC>True</BinaryTOC>
+    <IncludeFavorites>False</IncludeFavorites>
+    <Preliminary>False</Preliminary>
+    <RootNamespaceContainer>False</RootNamespaceContainer>
+    <RootNamespaceTitle />
+    <HelpTitle>A Sandcastle Documented Class Library</HelpTitle>
+    <HtmlHelpName>Documentation</HtmlHelpName>
+    <Language>en-US</Language>
+    <CopyrightHref />
+    <CopyrightText />
+    <FeedbackEMailAddress />
+    <HeaderText />
+    <FooterText />
+    <ProjectLinkType>Local</ProjectLinkType>
+    <SdkLinkType>Index</SdkLinkType>
+    <SdkLinkTarget>Blank</SdkLinkTarget>
+    <PresentationStyle>hana</PresentationStyle>
+    <NamingMethod>Guid</NamingMethod>
+    <SyntaxFilters>Standard</SyntaxFilters>
+    <ShowFeedbackControl>False</ShowFeedbackControl>
+    <ContentPlacement>AboveNamespaces</ContentPlacement>
+    <ContentSiteMap path="" />
+    <TopicFileTransform path="" />
+</project>

@@ -1,0 +1,49 @@
+000
+Name
+Type
+
+#LEVELS
+	#COMMENT
+		The numbers after mapname indicate at what range
+		of levels the Edjimon can appear in the wild.
+	#END COMMENT
+mapname:0,100
+mapname:0,100
+#END LEVELS
+
+#RARITY
+	#COMMENT
+		The numbers after mapname indicate how often
+		the edjimon can appear in the wild. 
+		1: 89%
+		2: 10%
+		3: 1%
+	#END COMMENT
+mapname:1
+mapname:2
+#END RARITY
+
+#BASE
+	#COMMENT
+		Hitpoints, Attack, Defense, Speed, Accuracy
+		See Edjipedia for more information on the values.
+	#END COMMENT
+HP:15
+ATK:9
+DEF:8
+SPD:4
+ACC:5
+#END BASE
+
+#ATTACKS
+	#COMMENT
+		The attack name followed by its type
+		as defined in clsBattle. Use 'null:99' for
+		an attack that does not exist (i.e. the
+		Edjimon only has two moves).
+	#END COMMENT
+attack1:0
+attack2:3
+null:99
+null:99
+#END ATTACKS

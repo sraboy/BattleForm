@@ -1,0 +1,259 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DF9A1D64-AAFE-4750-BB6B-B4B1763D2526}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BattleForm</RootNamespace>
+    <AssemblyName>BattleForm</AssemblyName>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>9A88618712B4E0708D74A77B67F9AAFDA3CDD7F7</ManifestCertificateThumbprint>
+    <ManifestKeyFile>BattleForm_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Debug\BattleForm.xml</DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SmoothProgressBar, Version=1.0.2864.29892, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SmoothProgressBar\SmoothProgressBar\bin\Release\SmoothProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsAttack.cs" />
+    <Compile Include="clsParser.cs" />
+    <Compile Include="frmBattle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBattle.Designer.cs">
+      <DependentUpon>frmBattle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsBattle.cs" />
+    <Compile Include="clsCollision.cs" />
+    <Compile Include="clsEdjimon.cs" />
+    <Compile Include="clsEvent.cs" />
+    <Compile Include="clsLevel.cs" />
+    <Compile Include="clsMap.cs" />
+    <Compile Include="clsNPC.cs" />
+    <Compile Include="clsSprite.cs" />
+    <Compile Include="clsTrainer.cs" />
+    <Compile Include="frmGameMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGameMain.Designer.cs">
+      <DependentUpon>frmGameMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsGame.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBattle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBattle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGameMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGameMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="Resources\battle-titlebar.bmp" />
+    <None Include="bin\Debug\img_edjimon\Aurorite.bmp" />
+    <None Include="bin\Debug\img_edjimon\Boulda.bmp" />
+    <None Include="bin\Debug\img_edjimon\Bronze Construct.bmp" />
+    <None Include="bin\Debug\img_edjimon\Cion.bmp" />
+    <None Include="bin\Debug\img_edjimon\Cire.bmp" />
+    <None Include="bin\Debug\img_edjimon\Cloudd.bmp" />
+    <None Include="bin\Debug\img_edjimon\Combustor.bmp" />
+    <None Include="bin\Debug\img_edjimon\Corpse.bmp" />
+    <None Include="bin\Debug\img_edjimon\Drift.bmp" />
+    <None Include="bin\Debug\img_edjimon\Electreel.bmp" />
+    <None Include="bin\Debug\img_edjimon\Ent.bmp" />
+    <None Include="bin\Debug\img_edjimon\Excitrik.bmp" />
+    <None Include="bin\Debug\img_edjimon\Floikes.bmp" />
+    <None Include="bin\Debug\img_edjimon\Gunnery.bmp" />
+    <None Include="bin\Debug\img_edjimon\Guns.bmp" />
+    <None Include="bin\Debug\img_edjimon\Hellion.bmp" />
+    <None Include="bin\Debug\img_edjimon\Hermit.bmp" />
+    <None Include="bin\Debug\img_edjimon\Hiss.bmp" />
+    <None Include="bin\Debug\img_edjimon\Icekerzo.bmp" />
+    <None Include="bin\Debug\img_edjimon\Incubat.bmp" />
+    <None Include="bin\Debug\img_edjimon\Iron Construct.bmp" />
+    <None Include="bin\Debug\img_edjimon\Kitticar.bmp" />
+    <None Include="bin\Debug\img_edjimon\Kommion.bmp" />
+    <None Include="bin\Debug\img_edjimon\Komsaikai.bmp" />
+    <None Include="bin\Debug\img_edjimon\Laziclaw.bmp" />
+    <None Include="bin\Debug\img_edjimon\Mantid.bmp" />
+    <None Include="bin\Debug\img_edjimon\Mountking.bmp" />
+    <None Include="bin\Debug\img_edjimon\Namu.bmp" />
+    <None Include="bin\Debug\img_edjimon\Orite.bmp" />
+    <None Include="bin\Debug\img_edjimon\Oryion.bmp" />
+    <None Include="bin\Debug\img_edjimon\Pebblia.bmp" />
+    <None Include="bin\Debug\img_edjimon\Piss Puddle.bmp" />
+    <None Include="bin\Debug\img_edjimon\Poliba.bmp" />
+    <None Include="bin\Debug\img_edjimon\Ponder.bmp" />
+    <None Include="bin\Debug\img_edjimon\Ravipion.bmp" />
+    <None Include="bin\Debug\img_edjimon\Rockin.bmp" />
+    <None Include="bin\Debug\img_edjimon\Rocky.bmp" />
+    <None Include="bin\Debug\img_edjimon\Roughion.bmp" />
+    <None Include="bin\Debug\img_edjimon\Scorpo.bmp" />
+    <None Include="bin\Debug\img_edjimon\Skyte.bmp" />
+    <None Include="bin\Debug\img_edjimon\Smogg.bmp" />
+    <None Include="bin\Debug\img_edjimon\Snowball.bmp" />
+    <None Include="bin\Debug\img_edjimon\Snowstrom.bmp" />
+    <None Include="bin\Debug\img_edjimon\SteelCons.bmp" />
+    <None Include="bin\Debug\img_edjimon\Stickum.bmp" />
+    <None Include="bin\Debug\img_edjimon\Streamain.bmp" />
+    <None Include="bin\Debug\img_edjimon\Supresloth.bmp" />
+    <None Include="bin\Debug\img_edjimon\Tankimnida.bmp" />
+    <None Include="bin\Debug\img_edjimon\Thormion.bmp" />
+    <None Include="bin\Debug\img_edjimon\Toasti.bmp" />
+    <None Include="bin\Debug\img_edjimon\Treep.bmp" />
+    <None Include="bin\Debug\img_edjimon\Vinyan.bmp" />
+    <None Include="bin\Debug\img_edjimon\Volchick.bmp" />
+    <None Include="bin\Debug\img_edjimon\Volcipeon.bmp" />
+    <None Include="bin\Debug\img_edjimon\vRaptor.bmp" />
+    <None Include="bin\Debug\img_edjimon\Waterwing.bmp" />
+    <None Include="bin\Debug\img_edjimon\Wraith.bmp" />
+    <None Include="bin\Debug\img_edjimon\Zapawk.bmp" />
+    <None Include="bin\Debug\img_edjimon\Zombones.bmp" />
+    <None Include="bin\Debug\img_edjimon\Aircrew.bmp" />
+    <None Include="bin\Debug\img_edjimon\Aires.bmp" />
+    <Content Include="Resources\Edjimon\Aircrew.bmp" />
+    <Content Include="Resources\Edjimon\Aires.bmp" />
+    <Content Include="Resources\Edjimon\Aurorite.bmp" />
+    <Content Include="Resources\Edjimon\Boulda.bmp" />
+    <None Include="Resources\Edjimon\Bronze Construct.bmp" />
+    <Content Include="Resources\Edjimon\Cion.bmp" />
+    <Content Include="Resources\Edjimon\Cire.bmp" />
+    <Content Include="Resources\Edjimon\Cloudd.bmp" />
+    <Content Include="Resources\Edjimon\Combustor.bmp" />
+    <Content Include="Resources\Edjimon\Corpse.bmp" />
+    <Content Include="Resources\Edjimon\Drift.bmp" />
+    <Content Include="Resources\Edjimon\Electreel.bmp" />
+    <Content Include="Resources\Edjimon\Ent.bmp" />
+    <Content Include="Resources\Edjimon\Excitrik.bmp" />
+    <Content Include="Resources\Edjimon\Floikes.bmp" />
+    <Content Include="Resources\Edjimon\Gunnery.bmp" />
+    <Content Include="Resources\Edjimon\Guns.bmp" />
+    <Content Include="Resources\Edjimon\Hellion.bmp" />
+    <Content Include="Resources\Edjimon\Hermit.bmp" />
+    <Content Include="Resources\Edjimon\Hiss.bmp" />
+    <Content Include="Resources\Edjimon\Icekerzo.bmp" />
+    <Content Include="Resources\Edjimon\Incubat.bmp" />
+    <None Include="Resources\Edjimon\Iron Construct.bmp" />
+    <Content Include="Resources\Edjimon\Kitticar.bmp" />
+    <Content Include="Resources\Edjimon\Kommion.bmp" />
+    <Content Include="Resources\Edjimon\Komsaikai.bmp" />
+    <Content Include="Resources\Edjimon\Laziclaw.bmp" />
+    <Content Include="Resources\Edjimon\mantid.bmp" />
+    <Content Include="Resources\Edjimon\Mountking.bmp" />
+    <Content Include="Resources\Edjimon\Namu.bmp" />
+    <Content Include="Resources\Edjimon\Orite.bmp" />
+    <Content Include="Resources\Edjimon\Oryion.bmp" />
+    <Content Include="Resources\Edjimon\Pebblia.bmp" />
+    <None Include="Resources\Edjimon\Piss Puddle.bmp" />
+    <Content Include="Resources\Edjimon\Poliba.bmp" />
+    <Content Include="Resources\Edjimon\Ponder.bmp" />
+    <Content Include="Resources\Edjimon\Ravipion.bmp" />
+    <Content Include="Resources\Edjimon\Rockin.bmp" />
+    <Content Include="Resources\Edjimon\Rocky.bmp" />
+    <Content Include="Resources\Edjimon\Roughion.bmp" />
+    <Content Include="Resources\Edjimon\Scorpo.bmp" />
+    <Content Include="Resources\Edjimon\Skyte.bmp" />
+    <Content Include="Resources\Edjimon\Smogg.bmp" />
+    <Content Include="Resources\Edjimon\Snowball.bmp" />
+    <Content Include="Resources\Edjimon\Snowstrom.bmp" />
+    <Content Include="Resources\Edjimon\SteelCons.bmp" />
+    <Content Include="Resources\Edjimon\Stickum.bmp" />
+    <Content Include="Resources\Edjimon\Streamain.bmp" />
+    <Content Include="Resources\Edjimon\Supresloth.bmp" />
+    <Content Include="Resources\Edjimon\Tankimnida.bmp" />
+    <Content Include="Resources\Edjimon\Thormion.bmp" />
+    <Content Include="Resources\Edjimon\Toasti.bmp" />
+    <Content Include="Resources\Edjimon\treep.bmp" />
+    <Content Include="Resources\Edjimon\Vinyan.bmp" />
+    <Content Include="Resources\Edjimon\Volchick.bmp" />
+    <Content Include="Resources\Edjimon\Volcipeon.bmp" />
+    <Content Include="Resources\Edjimon\vRaptor.bmp" />
+    <Content Include="Resources\Edjimon\Waterwing.bmp" />
+    <Content Include="Resources\Edjimon\Wraith.bmp" />
+    <Content Include="Resources\Edjimon\Zapawk.bmp" />
+    <Content Include="Resources\Edjimon\Zombones.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

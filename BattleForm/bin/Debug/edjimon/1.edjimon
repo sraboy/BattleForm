@@ -1,0 +1,25 @@
+001
+Treep
+1
+#LEVELS
+world-1:1,6
+world-2:4,27
+#END LEVELS
+#RARITY
+world-1:1
+world-2:2
+#END RARITY
+#BASE
+HP:17
+ATK:6
+DEF:10
+SPD:4
+ACC:50
+CEL:10
+#END BASE
+#ATTACKS
+Punch:0
+null:99
+null:99
+null:99
+#END ATTACKS

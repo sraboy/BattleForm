@@ -1,0 +1,25 @@
+010
+Toasti
+2
+#LEVELS
+world-1:3,6
+world-2:4,27
+#END LEVELS
+#RARITY
+world-1:1
+world-2:2
+#END RARITY
+#BASE
+HP:15
+ATK:5
+DEF:5
+SPD:6
+ACC:50
+CEL:20
+#END BASE
+#ATTACKS
+Punch:0
+null:99
+null:99
+null:99
+#END ATTACKS

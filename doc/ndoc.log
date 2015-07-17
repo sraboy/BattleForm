@@ -1,0 +1,438 @@
+Building documentation...
+Memory before build: 982172
+Initializing...
+Merging XML documentation...
+Building file mapping...
+Loading XSLT files...
+    namespace.xslt
+    namespacehierarchy.xslt
+    type.xslt
+    typehierarchy.xslt
+    allmembers.xslt
+    individualmembers.xslt
+    event.xslt
+    member.xslt
+    memberoverload.xslt
+    property.xslt
+    field.xslt
+    htmlcontents.xslt
+Generating HTML pages...
+(global).html
+234 msec.
+(global)Hierarchy.html
+0 msec.
+BattleForm.html
+78 msec.
+BattleFormHierarchy.html
+16 msec.
+BattleForm.clsAttack.html
+0 msec.
+BattleForm.clsAttackMembers.html
+15 msec.
+BattleForm.clsAttackStaticConstructor.html
+0 msec.
+BattleForm.clsAttackFields.html
+16 msec.
+BattleForm.clsAttack.typematrix.html
+0 msec.
+BattleForm.clsAttackMethods.html
+0 msec.
+BattleForm.clsAttack.Attack.html
+0 msec.
+BattleForm.clsAttack.ProbableAttack.html
+0 msec.
+BattleForm.clsBattle.html
+0 msec.
+BattleForm.clsBattleMembers.html
+0 msec.
+BattleForm.clsBattleConstructor.html
+16 msec.
+BattleForm.clsBattleFields.html
+0 msec.
+BattleForm.clsBattle.B_enemy.html
+0 msec.
+BattleForm.clsBattle.B_player.html
+15 msec.
+BattleForm.clsBattle.BattleForm.html
+0 msec.
+BattleForm.clsBattleMethods.html
+16 msec.
+BattleForm.clsBattle.DoDamage.html
+0 msec.
+BattleForm.clsBattle.type.html
+0 msec.
+BattleForm.clsCollision.html
+16 msec.
+BattleForm.clsCollisionMembers.html
+0 msec.
+BattleForm.clsCollisionConstructor.html
+0 msec.
+BattleForm.clsCollisionMethods.html
+15 msec.
+BattleForm.clsCollision.Allow.html
+0 msec.
+BattleForm.clsEdjimon.html
+0 msec.
+BattleForm.clsEdjimonMembers.html
+16 msec.
+BattleForm.clsEdjimonConstructor.html
+31 msec.
+BattleForm.clsEdjimonConstructor1.html
+0 msec.
+BattleForm.clsEdjimonConstructor2.html
+0 msec.
+BattleForm.clsEdjimonFields.html
+47 msec.
+BattleForm.clsEdjimon.accuracy.html
+0 msec.
+BattleForm.clsEdjimon.arraypos.html
+0 msec.
+BattleForm.clsEdjimon.attack.html
+16 msec.
+BattleForm.clsEdjimon.attack_types.html
+0 msec.
+BattleForm.clsEdjimon.attacks.html
+0 msec.
+BattleForm.clsEdjimon.cel.html
+0 msec.
+BattleForm.clsEdjimon.currentHP.html
+0 msec.
+BattleForm.clsEdjimon.currentlevel.html
+15 msec.
+BattleForm.clsEdjimon.defense.html
+0 msec.
+BattleForm.clsEdjimon.experience.html
+16 msec.
+BattleForm.clsEdjimon.levelup.html
+0 msec.
+BattleForm.clsEdjimon.maxHP.html
+0 msec.
+BattleForm.clsEdjimon.maxlevel.html
+0 msec.
+BattleForm.clsEdjimon.minlevel.html
+0 msec.
+BattleForm.clsEdjimon.name.html
+0 msec.
+BattleForm.clsEdjimon.nickname.html
+0 msec.
+BattleForm.clsEdjimon.number.html
+16 msec.
+BattleForm.clsEdjimon.pics.html
+0 msec.
+BattleForm.clsEdjimon.rarity.html
+0 msec.
+BattleForm.clsEdjimon.speed.html
+0 msec.
+BattleForm.clsEdjimon.type.html
+16 msec.
+BattleForm.clsGame.html
+0 msec.
+BattleForm.clsGameMembers.html
+15 msec.
+BattleForm.clsGameConstructor.html
+0 msec.
+BattleForm.clsGameStaticConstructor.html
+0 msec.
+BattleForm.clsGameFields.html
+16 msec.
+BattleForm.clsGame.bottomright.html
+0 msec.
+BattleForm.clsGame.GameForm.html
+0 msec.
+BattleForm.clsGame.inbattle.html
+0 msec.
+BattleForm.clsGame.level.html
+0 msec.
+BattleForm.clsGame.map.html
+0 msec.
+BattleForm.clsGame.physics.html
+0 msec.
+BattleForm.clsGame.player.html
+0 msec.
+BattleForm.clsGame.tileheight.html
+0 msec.
+BattleForm.clsGame.tilewidth.html
+0 msec.
+BattleForm.clsGame.topleft.html
+0 msec.
+BattleForm.clsGameMethods.html
+0 msec.
+BattleForm.clsGame.CalculateBorders.html
+0 msec.
+BattleForm.clsLevel.html
+0 msec.
+BattleForm.clsLevelMembers.html
+0 msec.
+BattleForm.clsLevelConstructor.html
+0 msec.
+BattleForm.clsLevelFields.html
+16 msec.
+BattleForm.clsLevel.edjimon.html
+0 msec.
+BattleForm.clsLevel.levelname.html
+0 msec.
+BattleForm.clsLevel.reader.html
+0 msec.
+BattleForm.clsLevelMethods.html
+0 msec.
+BattleForm.clsLevel.LoadLevel.html
+0 msec.
+BattleForm.clsMap.html
+0 msec.
+BattleForm.clsMapMembers.html
+0 msec.
+BattleForm.clsMapConstructor.html
+0 msec.
+BattleForm.clsMapFields.html
+16 msec.
+BattleForm.clsMap.height.html
+0 msec.
+BattleForm.clsMap.passable.html
+0 msec.
+BattleForm.clsMap.sr.html
+16 msec.
+BattleForm.clsMap.TileImages.html
+0 msec.
+BattleForm.clsMap.Tiles.html
+0 msec.
+BattleForm.clsMap.walkable.html
+0 msec.
+BattleForm.clsMap.width.html
+15 msec.
+BattleForm.clsMapMethods.html
+0 msec.
+BattleForm.clsMap.ReadMap.html
+0 msec.
+BattleForm.clsNPC.html
+0 msec.
+BattleForm.clsNPCMembers.html
+0 msec.
+BattleForm.clsNPCConstructor.html
+15 msec.
+BattleForm.clsNPCFields.html
+0 msec.
+BattleForm.clsNPC.direction.html
+0 msec.
+BattleForm.clsNPC.folder.html
+0 msec.
+BattleForm.clsNPC.position.html
+16 msec.
+BattleForm.clsNPC.spriteimage.html
+0 msec.
+BattleForm.clsNPCProperties.html
+0 msec.
+BattleForm.clsNPC.CurrentImage.html
+0 msec.
+BattleForm.clsNPCMethods.html
+16 msec.
+BattleForm.clsNPC.Load.html
+0 msec.
+BattleForm.clsNPC.UpdateMap.html
+15 msec.
+BattleForm.clsParser.html
+0 msec.
+BattleForm.clsParserMembers.html
+0 msec.
+BattleForm.clsParserConstructor.html
+16 msec.
+BattleForm.clsParserFields.html
+0 msec.
+BattleForm.clsParser.temp.html
+0 msec.
+BattleForm.clsSprite.html
+0 msec.
+BattleForm.clsSpriteMembers.html
+16 msec.
+BattleForm.clsSpriteConstructor.html
+15 msec.
+BattleForm.clsSpriteFields.html
+0 msec.
+BattleForm.clsSprite.direction.html
+0 msec.
+BattleForm.clsSprite.folder.html
+16 msec.
+BattleForm.clsSprite.frame.html
+0 msec.
+BattleForm.clsSprite.inmotion.html
+0 msec.
+BattleForm.clsSprite.multiplier.html
+0 msec.
+BattleForm.clsSprite.numberofdirections.html
+15 msec.
+BattleForm.clsSprite.numberofframes.html
+0 msec.
+BattleForm.clsSprite.position.html
+0 msec.
+BattleForm.clsSprite.sframe.html
+0 msec.
+BattleForm.clsSprite.SpriteImage.html
+16 msec.
+BattleForm.clsSprite.spritename.html
+0 msec.
+BattleForm.clsSpriteProperties.html
+0 msec.
+BattleForm.clsSprite.TilePosition.html
+16 msec.
+BattleForm.clsSpriteMethods.html
+0 msec.
+BattleForm.clsSprite.Animate.html
+0 msec.
+BattleForm.clsSprite.MoveDown.html
+15 msec.
+BattleForm.clsSprite.MoveLeft.html
+0 msec.
+BattleForm.clsSprite.MoveRight.html
+0 msec.
+BattleForm.clsSprite.MoveUp.html
+0 msec.
+BattleForm.clsSprite.ReturnDirection.html
+0 msec.
+BattleForm.clsSprite.dir.html
+0 msec.
+BattleForm.clsTrainer.html
+0 msec.
+BattleForm.clsTrainerMembers.html
+0 msec.
+BattleForm.clsTrainerConstructor.html
+0 msec.
+BattleForm.clsTrainerFields.html
+0 msec.
+BattleForm.clsTrainer.edjimon.html
+16 msec.
+BattleForm.frmBattle.html
+0 msec.
+BattleForm.frmBattleMembers.html
+172 msec.
+BattleForm.frmBattleConstructor.html
+0 msec.
+BattleForm.frmBattleFields.html
+16 msec.
+BattleForm.frmBattle.btnAttack1.html
+0 msec.
+BattleForm.frmBattle.btnAttack2.html
+16 msec.
+BattleForm.frmBattle.btnAttack3.html
+0 msec.
+BattleForm.frmBattle.btnAttack4.html
+0 msec.
+BattleForm.frmBattle.btnClose.html
+15 msec.
+BattleForm.frmBattle.btnFlee.html
+0 msec.
+BattleForm.frmBattle.components.html
+0 msec.
+BattleForm.frmBattle.edEnemy.html
+0 msec.
+BattleForm.frmBattle.edPlayer.html
+0 msec.
+BattleForm.frmBattle.lblAttack.html
+0 msec.
+BattleForm.frmBattle.lblEnemyName.html
+0 msec.
+BattleForm.frmBattle.lblEnemyType.html
+0 msec.
+BattleForm.frmBattle.lblPlayerName.html
+0 msec.
+BattleForm.frmBattle.lblPlayerType.html
+16 msec.
+BattleForm.frmBattle.panel1.html
+0 msec.
+BattleForm.frmBattle.pbEnemyHP.html
+0 msec.
+BattleForm.frmBattle.pbPlayerHP.html
+16 msec.
+BattleForm.frmBattle.picEnemy.html
+0 msec.
+BattleForm.frmBattle.picPlayer.html
+0 msec.
+BattleForm.frmBattle.pictureboxEnemy.html
+0 msec.
+BattleForm.frmBattle.pictureboxPlayer.html
+0 msec.
+BattleForm.frmBattle.player_turn.html
+0 msec.
+BattleForm.frmBattle.tabAttack.html
+0 msec.
+BattleForm.frmBattle.tabctlOptions.html
+16 msec.
+BattleForm.frmBattle.tabPack.html
+0 msec.
+BattleForm.frmBattle.titlebar.html
+0 msec.
+BattleForm.frmBattle.tooledjimon.html
+0 msec.
+BattleForm.frmBattle.toolStripButton1.html
+16 msec.
+BattleForm.frmBattle.toolStripButton2.html
+0 msec.
+BattleForm.frmBattleMethods.html
+78 msec.
+BattleForm.frmBattle.btnAttack1_Click.html
+15 msec.
+BattleForm.frmBattle.btnClose_Click.html
+0 msec.
+BattleForm.frmBattle.btnFlee_Click.html
+0 msec.
+BattleForm.frmBattle.Cycle.html
+16 msec.
+BattleForm.frmBattle.Dispose_overloads.html
+15 msec.
+BattleForm.frmBattle.Dispose_overload_1.html
+16 msec.
+BattleForm.frmBattle.InitializeComponent.html
+0 msec.
+BattleForm.frmGameMain.html
+15 msec.
+BattleForm.frmGameMainMembers.html
+125 msec.
+BattleForm.frmGameMainConstructor.html
+16 msec.
+BattleForm.frmGameMainFields.html
+16 msec.
+BattleForm.frmGameMain.components.html
+0 msec.
+BattleForm.frmGameMainMethods.html
+78 msec.
+BattleForm.frmGameMain.Dispose_overloads.html
+15 msec.
+BattleForm.frmGameMain.Dispose_overload_1.html
+16 msec.
+BattleForm.frmGameMain.Form1_FormClosing.html
+0 msec.
+BattleForm.frmGameMain.Form1_KeyDown.html
+16 msec.
+BattleForm.frmGameMain.Form1_Load.html
+15 msec.
+BattleForm.frmGameMain.Form1_Paint.html
+0 msec.
+BattleForm.frmGameMain.InitializeComponent.html
+16 msec.
+BattleForm.frmGameMain.OnPaintBackground.html
+16 msec.
+BattleForm.Properties.html
+0 msec.
+BattleForm.PropertiesHierarchy.html
+0 msec.
+Making Html: 2 sec.
+Generating HTML content file...
+transform the HHC contents file into html
+16 msec.
+Compiling HTML Help file...
+Compiling Html Help file
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling d:\Visual Studio 2005\Projects\BattleForm\doc\ndoc_msdn_temp\Documentation.chm
+
+
+Compile time: 0 minutes, 3 seconds
+200	Topics
+1,205	Local links
+2,552	Internet links
+11	Graphics
+
+
+Created d:\Visual Studio 2005\Projects\BattleForm\doc\ndoc_msdn_temp\Documentation.chm, 180,739 bytes
+Compression decreased file by 1,126,009 bytes.
+
+Html Help compile complete
+Done.

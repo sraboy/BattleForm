@@ -1,0 +1,1275 @@
+[Sandcastle Help File Builder GUI, version 1.6.0.1]
+Build started at 11/8/2007 10:13:29 PM
+
+Clearing working folder...
+Finding tools...
+Found Sandcastle in 'C:\Program Files\Sandcastle\'
+Found HTML 1.x help compiler in 'C:\Program Files\HTML Help Workshop\'
+Validating documentation assembly information...
+-------------------------------
+Generating shared content files (en-US, English (United States))...
+-------------------------------
+Creating Sandcastle configuration file...
+No component configurations to merge
+    Last step completed in 00:00:00.1094
+-------------------------------
+Copying documentation assembly dependencies...
+No dependencies to copy
+    Last step completed in 00:00:00.0000
+-------------------------------
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0156
+-------------------------------
+Generating reflection information...
+[D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\GenerateRefInfo.bat]
+MrefBuilder (v2.3.8000.26)
+Copyright c Microsoft 2006
+Info: Loaded 2 assemblies for reflection and 0 dependency assemblies.
+Info: Wrote information on 3 namespaces, 19 types, and 170 members
+    Last step completed in 00:00:09.7188
+-------------------------------
+Removing duplicate topics from reflection information file
+Deleting duplicate topic 'T:<Module>'
+    1 duplicate topics removed
+Cleaning up namespace elements
+Deleting duplicate namespace entry 'T:<Module>'
+    1 duplicates removed from N:
+    Last step completed in 00:00:00.0156
+-------------------------------
+Generating namespace summary information...
+    Warning: Missing namespace summary documentation for N:
+    Warning: Missing namespace summary documentation for N:BattleForm
+    Warning: Missing namespace summary documentation for N:SmoothProgressBar
+    Last step completed in 00:00:00.0000
+-------------------------------
+Applying visibility properties to reflection information file
+    0 explicit interface implementations removed
+    264 local and base class EII elements removed
+    1338 inherited member elements removed
+    0 event backer fields noted for removal
+    0 internal members noted for removal
+    3 internal types noted for removal
+    0 'protected internal' members changed to 'protected'
+    Removing previously noted unwanted APIs and elements
+    Last step completed in 00:00:00.7344
+-------------------------------
+Transforming reflection output...
+[D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\TransformManifest.bat]
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl'.
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl'.
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl'.
+    Last step completed in 00:00:09.8750
+-------------------------------
+Modifying help topic filenames in reflection information file
+No changes required
+    Last step completed in 00:00:00.0000
+-------------------------------
+Copying standard help content...
+C:\Program Files\Sandcastle\Presentation\hana\icons\adm.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\adm.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\adm_arch.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\adm_arch.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\adm_dev.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\adm_dev.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\adm_dev_arch.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\adm_dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\alert_caution.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\alert_caution.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\alert_note.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\alert_note.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\alert_security.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\alert_security.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\arch.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\arch.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\big_adm.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\big_adm.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\big_arch.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\big_arch.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\big_dev.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\big_dev.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\big_kw.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\big_kw.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\box.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\box.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\Caution.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\Caution.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\CFW.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\CFW.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\ch_selected.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\ch_selected.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\ch_selected_hover.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\ch_selected_hover.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\ch_unselected.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\ch_unselected.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\ch_unselected_hover.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\ch_unselected_hover.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\collall.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\collall.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\collapse.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\collapse.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\collapse_all.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\collapse_all.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\copycode.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\copycode.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\copycodeHighlight.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\copycodeHighlight.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\dev.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\dev.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\dev_arch.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\drpdown.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\drpdown.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\drpdown_orange.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\drpdown_orange.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\drpdown_orange_up.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\drpdown_orange_up.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\drpup.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\drpup.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\exp.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\exp.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\expall.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\expall.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\expand_all.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\expand_all.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\filter1a.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\filter1a.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\filter1c.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\filter1c.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\footer.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\footer.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\greencheck.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\greencheck.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\greychck.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\greychck.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\header_prev_next.jpg -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\header_prev_next.jpg
+C:\Program Files\Sandcastle\Presentation\hana\icons\header_sql_tutorial_blank.jpg -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\header_sql_tutorial_blank.jpg
+C:\Program Files\Sandcastle\Presentation\hana\icons\header_sql_tutorial_logo.GIF -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\header_sql_tutorial_logo.GIF
+C:\Program Files\Sandcastle\Presentation\hana\icons\kw.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\kw.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\kw_adm.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\kw_adm.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\kw_adm_arch.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\kw_adm_arch.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\kw_adm_dev.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\kw_adm_dev.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\kw_adm_dev_arch.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\kw_adm_dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\kw_arch.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\kw_arch.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\kw_dev.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\kw_dev.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\kw_dev_arch.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\kw_dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\LastChild.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\LastChild.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\load.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\load.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\load_hover.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\load_hover.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\note.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\note.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\NSRbottomgrad.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\NSRbottomgrad.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\pencil.GIF -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\pencil.GIF
+C:\Program Files\Sandcastle\Presentation\hana\icons\privclass.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\privclass.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\privdelegate.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\privdelegate.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\privenum.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\privenum.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\privenumeration.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\privenumeration.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\privevent.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\privevent.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\privfield.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\privfield.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\privinterface.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\privinterface.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\privmethod.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\privmethod.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\privproperty.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\privproperty.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\privstructure.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\privstructure.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\protclass.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\protclass.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\protdelegate.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\protdelegate.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\protenum.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\protenum.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\protenumeration.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\protenumeration.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\protevent.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\protevent.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\protfield.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\protfield.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\protinterface.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\protinterface.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\protmethod.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\protmethod.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\protoperator.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\protoperator.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\protproperty.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\protproperty.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\protstructure.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\protstructure.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\pubclass.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\pubclass.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\pubdelegate.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\pubdelegate.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\pubenum.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\pubenum.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\pubenumeration.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\pubenumeration.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\pubevent.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\pubevent.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\pubfield.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\pubfield.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\pubinterface.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\pubinterface.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\pubmethod.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\pubmethod.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\puboperator.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\puboperator.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\pubproperty.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\pubproperty.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\pubstructure.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\pubstructure.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\requirements1a.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\requirements1a.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\requirements1c.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\requirements1c.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\r_select.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\r_select.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\r_select_hover.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\r_select_hover.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\r_unselect.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\r_unselect.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\r_unselect_hover.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\r_unselect_hover.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\save.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\save.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\save_hover.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\save_hover.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\security.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\security.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\seealso1a.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\seealso1a.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\seealso1c.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\seealso1c.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\static.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\static.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\tab_sel_lft_cnr.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\tab_sel_lft_cnr.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\tab_sel_lft_grad.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\tab_sel_lft_grad.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\tab_sel_rt_cnr.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\tab_sel_rt_cnr.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\tab_sel_rt_grad.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\tab_sel_rt_grad.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\tab_unsel_lft_cnr.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\tab_unsel_lft_cnr.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\tab_unsel_lft_grad.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\tab_unsel_lft_grad.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\tab_unsel_rt_cnr.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\tab_unsel_rt_cnr.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\tab_unsel_rt_grad.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\tab_unsel_rt_grad.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\twirl_selected.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\twirl_selected.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\twirl_selected_hover.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\twirl_selected_hover.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\twirl_unselected.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\twirl_unselected.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\twirl_unselected_hover.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\twirl_unselected_hover.gif
+C:\Program Files\Sandcastle\Presentation\hana\icons\xna.gif -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\icons\xna.gif
+C:\Program Files\Sandcastle\Presentation\hana\scripts\CommonUtilities.js -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\scripts\CommonUtilities.js
+C:\Program Files\Sandcastle\Presentation\hana\scripts\DataStore.js -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\scripts\DataStore.js
+C:\Program Files\Sandcastle\Presentation\hana\scripts\Dropdown.js -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\scripts\Dropdown.js
+C:\Program Files\Sandcastle\Presentation\hana\scripts\EventUtilities.js -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\scripts\EventUtilities.js
+C:\Program Files\Sandcastle\Presentation\hana\scripts\LanguageFilter.js -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\scripts\LanguageFilter.js
+C:\Program Files\Sandcastle\Presentation\hana\scripts\MemberFilter.js -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\scripts\MemberFilter.js
+C:\Program Files\Sandcastle\Presentation\hana\scripts\script_manifold.js -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\scripts\script_manifold.js
+C:\Program Files\Sandcastle\Presentation\hana\scripts\SplitScreen.js -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\scripts\SplitScreen.js
+C:\Program Files\Sandcastle\Presentation\hana\styles\Presentation.css -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\styles\Presentation.css
+C:\Program Files\Sandcastle\Presentation\hana\styles\syntax.css -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\styles\syntax.css
+C:\Program Files\Sandcastle\Presentation\hana\styles\tabs.css -> D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\styles\tabs.css
+    Last step completed in 00:00:01.6094
+
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.5156
+-------------------------------
+Building help topics...
+[D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\BuildHelpTopics.bat]
+BuildAssembler (v2.3.8000.26)
+Copyright c Microsoft 2006
+Info: CopyFromFileComponent: Instantiating component.
+Info: CopyFromFileComponent: Loading data file 'C:\Program Files\Sandcastle\Presentation\hana\Transforms\skeleton.xml'.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Searching for files that match '*.xml'.
+Info: CopyFromIndexComponent: Searching for files that match 'reflection.xml'.
+Info: CopyFromIndexComponent: Indexed 170358 elements in 107 files.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ForEachComponent: Instantiating component.
+Info: ForEachComponent: Loading subcomponents.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ForEachComponent: Loaded 1 subcomponents.
+Info: ForEachComponent: Instantiating component.
+Info: ForEachComponent: Loading subcomponents.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ForEachComponent: Loaded 1 subcomponents.
+Info: IfThenComponent: Instantiating component.
+Info: SyntaxComponent: Instantiating component.
+Info: SyntaxComponent: Loaded 3 syntax generators.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Searching for files that match 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\*.xml'.
+Warn: CopyFromIndexComponent: Entries for the key 'N:System.Data.SqlClient' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlCommand' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.#ctor' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.#ctor(System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.#ctor(System.String,System.Data.SqlClient.SqlConnection)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.#ctor(System.String,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.Cancel' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.CreateParameter' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteNonQuery' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteReader' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteReader(System.Data.CommandBehavior)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteScalar' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteXmlReader' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.Prepare' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ResetCommandTimeout' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.CommandText' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.CommandTimeout' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.CommandType' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.Connection' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.Parameters' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.Transaction' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.UpdatedRowSource' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlCommandBuilder' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.#ctor' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.#ctor(System.Data.SqlClient.SqlDataAdapter)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(System.Data.SqlClient.SqlCommand)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.GetDeleteCommand' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.GetInsertCommand' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.GetUpdateCommand' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommandBuilder.DataAdapter' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommandBuilder.QuotePrefix' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommandBuilder.QuoteSuffix' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlConnection' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.#ctor' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.#ctor(System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'E:System.Data.SqlClient.SqlConnection.InfoMessage' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.BeginTransaction' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.BeginTransaction(System.Data.IsolationLevel)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.BeginTransaction(System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.BeginTransaction(System.Data.IsolationLevel,System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.ChangeDatabase(System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.Close' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.CreateCommand' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.Open' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.System.ICloneable.Clone' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.ConnectionString' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.ConnectionTimeout' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.Database' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.DataSource' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.PacketSize' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.ServerVersion' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.State' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.WorkstationId' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlDataAdapter' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataAdapter.#ctor' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataAdapter.#ctor(System.Data.SqlClient.SqlCommand)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataAdapter.#ctor(System.String,System.Data.SqlClient.SqlConnection)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataAdapter.#ctor(System.String,System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'E:System.Data.SqlClient.SqlDataAdapter.RowUpdated' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'E:System.Data.SqlClient.SqlDataAdapter.RowUpdating' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.DeleteCommand' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.InsertCommand' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.SelectCommand' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.System.Data.IDbDataAdapter.DeleteCommand' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.System.Data.IDbDataAdapter.InsertCommand' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.System.Data.IDbDataAdapter.SelectCommand' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.System.Data.IDbDataAdapter.UpdateCommand' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.UpdateCommand' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlDataReader' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.Close' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetBoolean(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetByte(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetChar(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetDataTypeName(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetDateTime(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetDecimal(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetDouble(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetFieldType(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetFloat(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetGuid(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetInt16(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetInt32(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetInt64(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetName(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetOrdinal(System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSchemaTable' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlBinary(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlBoolean(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlByte(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlDateTime(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlDecimal(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlDouble(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlGuid(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlInt16(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlInt32(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlInt64(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlMoney(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlSingle(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlString(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlValue(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlValues(System.Object[])' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetString(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetValue(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetValues(System.Object[])' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.IsDBNull(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.NextResult' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.Read' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.Depth' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.FieldCount' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.IsClosed' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.Item(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.Item(System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.RecordsAffected' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlError' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlError.ToString' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Class' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.LineNumber' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Message' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Number' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Procedure' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Server' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Source' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.State' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlErrorCollection' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlErrorCollection.CopyTo(System.Array,System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlErrorCollection.GetEnumerator' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlErrorCollection.Count' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlErrorCollection.Item(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlErrorCollection.System.Collections.ICollection.IsSynchronized' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlErrorCollection.System.Collections.ICollection.SyncRoot' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlException' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Class' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Errors' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.LineNumber' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Number' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Procedure' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Server' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Source' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.State' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlInfoMessageEventArgs' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlInfoMessageEventArgs.ToString' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlInfoMessageEventArgs.Errors' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlInfoMessageEventArgs.Message' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlInfoMessageEventArgs.Source' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlInfoMessageEventHandler' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlParameter' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Object)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType,System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType,System.Int32,System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType,System.Int32,System.Data.ParameterDirection,System.Boolean,System.Byte,System.Byte,System.String,System.Data.DataRowVersion,System.Object)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.System.ICloneable.Clone' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.ToString' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.DbType' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Direction' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.IsNullable' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Offset' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.ParameterName' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Precision' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Scale' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Size' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.SourceColumn' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.SourceVersion' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.SqlDbType' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Value' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlParameterCollection' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.Object)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.Data.SqlClient.SqlParameter)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Object)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Data.SqlDbType)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Data.SqlDbType,System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Data.SqlDbType,System.Int32,System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.AddWithValue(System.String,System.Object)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Clear' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Contains(System.Object)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Contains(System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.CopyTo(System.Array,System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.GetEnumerator' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.IndexOf(System.Object)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.IndexOf(System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Insert(System.Int32,System.Object)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Remove(System.Object)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.RemoveAt(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.RemoveAt(System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameterCollection.Count' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameterCollection.Item(System.Int32)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameterCollection.Item(System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlRowUpdatedEventArgs' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlRowUpdatedEventArgs.#ctor(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlRowUpdatedEventArgs.Command' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlRowUpdatedEventHandler' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlRowUpdatingEventArgs' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlRowUpdatingEventArgs.#ctor(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlRowUpdatingEventArgs.Command' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlRowUpdatingEventHandler' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlTransaction' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlTransaction.Commit' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlTransaction.Rollback' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlTransaction.Rollback(System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlTransaction.Save(System.String)' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlTransaction.Connection' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlTransaction.IsolationLevel' occur in both 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Info: CopyFromIndexComponent: Searching for files that match 'D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\BattleForm.xml'.
+Info: CopyFromIndexComponent: Searching for files that match 'D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\SmoothProgressBar.xml'.
+Info: CopyFromIndexComponent: Indexed 75511 elements in 67 files.
+Info: ForEachComponent: Instantiating component.
+Info: ForEachComponent: Loading subcomponents.
+Info: IfThenComponent: Instantiating component.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ForEachComponent: Loaded 2 subcomponents.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ShowMissingComponent: Instantiating component.
+Info: ShowMissingComponent: 
+    [Sandcastle Help File Builder Components, version 1.6.0.1]
+    Show Missing Documentation Component. Copyright c 2006-2007, Eric Woodruff, All Rights Reserved
+    http://www.codeplex.com/SHFB
+Info: VersionInfoComponent: Instantiating component.
+Info: VersionInfoComponent: 
+    [Sandcastle Help File Builder Components, version 1.6.0.1]
+    Version Information Component. Copyright c 2006-2007, Eric Woodruff, All Rights Reserved
+    http://www.codeplex.com/SHFB
+Info: CodeBlockComponent: Instantiating component.
+Info: CodeBlockComponent: 
+    [Sandcastle Help File Builder Components, version 1.6.0.1]
+    Code Block Component. Copyright c 2006-2007, Eric Woodruff, All Rights Reserved.
+    Portions copyright (c) 2003, Jonathan de Halleux, All rights reserved.
+    http://www.codeplex.com/SHFB
+Info: TransformComponent: Instantiating component.
+Info: PostTransformComponent: Instantiating component.
+Info: PostTransformComponent: 
+    [Sandcastle Help File Builder Components, version 1.6.0.1]
+    Post-Transform Component. Copyright c 2006-2007, Eric Woodruff, All Rights Reserved
+    http://www.codeplex.com/SHFB
+Info: SharedContentComponent: Instantiating component.
+Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\hana\content\shared_content.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\hana\content\shared_content.xml'.
+Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\hana\content\shared_content.xml.
+Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\hana\content\reference_content.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\hana\content\reference_content.xml'.
+Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\hana\content\reference_content.xml.
+Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\shared\content\syntax_content.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\shared\content\syntax_content.xml'.
+Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\shared\content\syntax_content.xml.
+Info: SharedContentComponent: Searching for files that match 'SharedBuilderContent.xml'.
+Info: SharedContentComponent: Loading shared content file 'D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'roottopictitle' with value in file 'D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'rootlink' with value in file 'D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'runningheadertext' with value in file 'D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'locationinformation' with value in file 'D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'assemblynameandmodule' with value in file 'D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'copycode' with value in file 'D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'locale' with value in file 'D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
+Info: SharedContentComponent: Searching for files that match 'PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Loading shared content file 'D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'header' with value in file 'D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'footer' with value in file 'D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
+Info: SharedContentComponent: Loaded 501 shared content items.
+Info: ResolveReferenceLinksComponent2: Instantiating component.
+Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Program Files\Sandcastle\Data\Reflection' for targets files of the form '*.xml'.
+Info: ResolveReferenceLinksComponent2: Searching directory 'D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working' for targets files of the form 'reflection.xml'.
+Info: ResolveReferenceLinksComponent2: Loaded 170358 reference targets.
+Info: SaveComponent: Instantiating component.
+Info: BuildAssembler: Building topic N:
+Warn: SharedContentComponent: Missing shared content item 'pubalttext'.
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:<Module>'.
+Warn: ResolveReferenceLinksComponent2: Invalid reference link target 'T:<Module>'.
+Info: BuildAssembler: Building topic N:BattleForm
+Info: BuildAssembler: Building topic T:BattleForm.clsAttack
+Warn: ShowMissingComponent: Missing <summary> documentation for T:BattleForm.clsAttack
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:BattleForm.clsAttack
+Info: BuildAssembler: Building topic Methods.T:BattleForm.clsAttack
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Fields.T:BattleForm.clsAttack
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic M:BattleForm.clsAttack.#cctor
+Info: ShowMissingComponent: Auto-documenting constructor M:BattleForm.clsAttack.#cctor
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsAttack.#cctor
+Info: BuildAssembler: Building topic M:BattleForm.clsAttack.Attack(BattleForm.clsBattle.type,BattleForm.clsBattle.type,System.Boolean)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsAttack.Attack(BattleForm.clsBattle.type,BattleForm.clsBattle.type,System.Boolean)
+Warn: ShowMissingComponent: Missing <param name="wild"> documentation for M:BattleForm.clsAttack.Attack(BattleForm.clsBattle.type,BattleForm.clsBattle.type,System.Boolean)
+Info: BuildAssembler: Building topic M:BattleForm.clsAttack.ProbableAttack
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsAttack.ProbableAttack
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsAttack.ProbableAttack
+Warn: ShowMissingComponent: Missing <returns> documentation for M:BattleForm.clsAttack.ProbableAttack
+Info: BuildAssembler: Building topic F:BattleForm.clsAttack.typematrix
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsAttack.typematrix
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsAttack.typematrix
+Info: BuildAssembler: Building topic T:BattleForm.clsBattle
+Warn: ShowMissingComponent: Missing <summary> documentation for T:BattleForm.clsBattle
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:BattleForm.clsBattle
+Info: BuildAssembler: Building topic Methods.T:BattleForm.clsBattle
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Fields.T:BattleForm.clsBattle
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic M:BattleForm.clsBattle.#ctor(BattleForm.clsEdjimon,BattleForm.clsEdjimon)
+Info: ShowMissingComponent: Auto-documenting constructor M:BattleForm.clsBattle.#ctor(BattleForm.clsEdjimon,BattleForm.clsEdjimon)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsBattle.#ctor(BattleForm.clsEdjimon,BattleForm.clsEdjimon)
+Warn: ShowMissingComponent: Missing <param name="player"> documentation for M:BattleForm.clsBattle.#ctor(BattleForm.clsEdjimon,BattleForm.clsEdjimon)
+Warn: ShowMissingComponent: Missing <param name="enemy"> documentation for M:BattleForm.clsBattle.#ctor(BattleForm.clsEdjimon,BattleForm.clsEdjimon)
+Info: BuildAssembler: Building topic F:BattleForm.clsBattle.B_enemy
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsBattle.B_enemy
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsBattle.B_enemy
+Info: BuildAssembler: Building topic F:BattleForm.clsBattle.B_player
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsBattle.B_player
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsBattle.B_player
+Info: BuildAssembler: Building topic F:BattleForm.clsBattle.BattleForm
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsBattle.BattleForm
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsBattle.BattleForm
+Info: BuildAssembler: Building topic M:BattleForm.clsBattle.DoDamage(System.Int32,BattleForm.clsEdjimon@)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsBattle.DoDamage(System.Int32,BattleForm.clsEdjimon@)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsBattle.DoDamage(System.Int32,BattleForm.clsEdjimon@)
+Warn: ShowMissingComponent: Missing <param name="hp_loss"> documentation for M:BattleForm.clsBattle.DoDamage(System.Int32,BattleForm.clsEdjimon@)
+Warn: ShowMissingComponent: Missing <param name="receiver"> documentation for M:BattleForm.clsBattle.DoDamage(System.Int32,BattleForm.clsEdjimon@)
+Info: BuildAssembler: Building topic T:BattleForm.clsBattle.type
+Warn: ShowMissingComponent: Missing <summary> documentation for T:BattleForm.clsBattle.type
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:BattleForm.clsBattle.type
+Info: BuildAssembler: Building topic T:BattleForm.clsCollision
+Warn: ShowMissingComponent: Missing <summary> documentation for T:BattleForm.clsCollision
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:BattleForm.clsCollision
+Info: BuildAssembler: Building topic Methods.T:BattleForm.clsCollision
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic M:BattleForm.clsCollision.#ctor
+Info: ShowMissingComponent: Auto-documenting constructor M:BattleForm.clsCollision.#ctor
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsCollision.#ctor
+Info: BuildAssembler: Building topic M:BattleForm.clsCollision.Allow(BattleForm.clsSprite.dir)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsCollision.Allow(BattleForm.clsSprite.dir)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsCollision.Allow(BattleForm.clsSprite.dir)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:BattleForm.clsCollision.Allow(BattleForm.clsSprite.dir)
+Warn: ShowMissingComponent: Missing <param name="direction"> documentation for M:BattleForm.clsCollision.Allow(BattleForm.clsSprite.dir)
+Info: BuildAssembler: Building topic T:BattleForm.clsEdjimon
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:BattleForm.clsEdjimon
+Info: BuildAssembler: Building topic Fields.T:BattleForm.clsEdjimon
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.clsEdjimon.#ctor
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic M:BattleForm.clsEdjimon.#ctor
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsEdjimon.#ctor
+Info: BuildAssembler: Building topic M:BattleForm.clsEdjimon.#ctor(System.Int32)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsEdjimon.#ctor(System.Int32)
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.accuracy
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.accuracy
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.arraypos
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.arraypos
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.attack
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.attack
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.attack_types
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.attack_types
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.attacks
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.attacks
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.currentHP
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.currentHP
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.currentlevel
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.currentlevel
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.defense
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.defense
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.experience
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.experience
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.levelup
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.levelup
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.maxHP
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.maxHP
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.maxlevel
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.maxlevel
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.minlevel
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsEdjimon.minlevel
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.minlevel
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.name
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.name
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.nickname
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.nickname
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.number
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.number
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.pics
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.pics
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.rarity
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.rarity
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.speed
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.speed
+Info: BuildAssembler: Building topic F:BattleForm.clsEdjimon.type
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEdjimon.type
+Info: BuildAssembler: Building topic M:BattleForm.clsEvent.CheckEdjimon
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsEvent.CheckEdjimon
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsEvent.CheckEdjimon
+Warn: ShowMissingComponent: Missing <returns> documentation for M:BattleForm.clsEvent.CheckEdjimon
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:BattleForm.clsEvent'.
+Info: BuildAssembler: Building topic M:BattleForm.clsEvent.CheckEncounter(System.Drawing.Point,BattleForm.clsSprite.dir)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsEvent.CheckEncounter(System.Drawing.Point,BattleForm.clsSprite.dir)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsEvent.CheckEncounter(System.Drawing.Point,BattleForm.clsSprite.dir)
+Warn: ShowMissingComponent: Missing <param name="tilepos"> documentation for M:BattleForm.clsEvent.CheckEncounter(System.Drawing.Point,BattleForm.clsSprite.dir)
+Warn: ShowMissingComponent: Missing <param name="dir"> documentation for M:BattleForm.clsEvent.CheckEncounter(System.Drawing.Point,BattleForm.clsSprite.dir)
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:BattleForm.clsEvent'.
+Info: BuildAssembler: Building topic M:BattleForm.clsEvent.DetermineEdjimon
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsEvent.DetermineEdjimon
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsEvent.DetermineEdjimon
+Warn: ShowMissingComponent: Missing <returns> documentation for M:BattleForm.clsEvent.DetermineEdjimon
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:BattleForm.clsEvent'.
+Info: BuildAssembler: Building topic F:BattleForm.clsEvent.oldpos
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsEvent.oldpos
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:BattleForm.clsEvent'.
+Info: BuildAssembler: Building topic T:BattleForm.clsGame
+Warn: ShowMissingComponent: Missing <summary> documentation for T:BattleForm.clsGame
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:BattleForm.clsGame
+Info: BuildAssembler: Building topic Methods.T:BattleForm.clsGame
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Fields.T:BattleForm.clsGame
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic M:BattleForm.clsGame.#ctor(System.Windows.Forms.Form)
+Info: ShowMissingComponent: Auto-documenting constructor M:BattleForm.clsGame.#ctor(System.Windows.Forms.Form)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsGame.#ctor(System.Windows.Forms.Form)
+Warn: ShowMissingComponent: Missing <param name="frm"> documentation for M:BattleForm.clsGame.#ctor(System.Windows.Forms.Form)
+Info: BuildAssembler: Building topic M:BattleForm.clsGame.#cctor
+Info: ShowMissingComponent: Auto-documenting constructor M:BattleForm.clsGame.#cctor
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsGame.#cctor
+Info: BuildAssembler: Building topic F:BattleForm.clsGame.bottomright
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsGame.bottomright
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsGame.bottomright
+Info: BuildAssembler: Building topic M:BattleForm.clsGame.CalculateBorders
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsGame.CalculateBorders
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsGame.CalculateBorders
+Info: BuildAssembler: Building topic F:BattleForm.clsGame.GameForm
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsGame.GameForm
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsGame.GameForm
+Info: BuildAssembler: Building topic F:BattleForm.clsGame.inbattle
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsGame.inbattle
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsGame.inbattle
+Info: BuildAssembler: Building topic F:BattleForm.clsGame.level
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsGame.level
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsGame.level
+Info: BuildAssembler: Building topic F:BattleForm.clsGame.map
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsGame.map
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsGame.map
+Info: BuildAssembler: Building topic F:BattleForm.clsGame.physics
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsGame.physics
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsGame.physics
+Info: BuildAssembler: Building topic F:BattleForm.clsGame.player
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsGame.player
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsGame.player
+Info: BuildAssembler: Building topic F:BattleForm.clsGame.tileheight
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsGame.tileheight
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsGame.tileheight
+Info: BuildAssembler: Building topic F:BattleForm.clsGame.tilewidth
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsGame.tilewidth
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsGame.tilewidth
+Info: BuildAssembler: Building topic F:BattleForm.clsGame.topleft
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsGame.topleft
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsGame.topleft
+Info: BuildAssembler: Building topic T:BattleForm.clsLevel
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:BattleForm.clsLevel
+Info: BuildAssembler: Building topic Methods.T:BattleForm.clsLevel
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Fields.T:BattleForm.clsLevel
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic M:BattleForm.clsLevel.#ctor
+Info: ShowMissingComponent: Auto-documenting constructor M:BattleForm.clsLevel.#ctor
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsLevel.#ctor
+Info: BuildAssembler: Building topic F:BattleForm.clsLevel.edjimon
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsLevel.edjimon
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsLevel.edjimon
+Info: BuildAssembler: Building topic F:BattleForm.clsLevel.levelname
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsLevel.levelname
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsLevel.levelname
+Info: BuildAssembler: Building topic M:BattleForm.clsLevel.LoadLevel(System.String)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsLevel.LoadLevel(System.String)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsLevel.LoadLevel(System.String)
+Warn: ShowMissingComponent: Missing <param name="level"> documentation for M:BattleForm.clsLevel.LoadLevel(System.String)
+Info: BuildAssembler: Building topic F:BattleForm.clsLevel.reader
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsLevel.reader
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsLevel.reader
+Info: BuildAssembler: Building topic T:BattleForm.clsMap
+Warn: ShowMissingComponent: Missing <summary> documentation for T:BattleForm.clsMap
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:BattleForm.clsMap
+Info: BuildAssembler: Building topic Methods.T:BattleForm.clsMap
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Fields.T:BattleForm.clsMap
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic M:BattleForm.clsMap.#ctor(System.String,System.String)
+Info: ShowMissingComponent: Auto-documenting constructor M:BattleForm.clsMap.#ctor(System.String,System.String)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsMap.#ctor(System.String,System.String)
+Warn: ShowMissingComponent: Missing <param name="mapname"> documentation for M:BattleForm.clsMap.#ctor(System.String,System.String)
+Warn: ShowMissingComponent: Missing <param name="tileset"> documentation for M:BattleForm.clsMap.#ctor(System.String,System.String)
+Info: BuildAssembler: Building topic F:BattleForm.clsMap.height
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsMap.height
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsMap.height
+Info: BuildAssembler: Building topic F:BattleForm.clsMap.passable
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsMap.passable
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsMap.passable
+Info: BuildAssembler: Building topic M:BattleForm.clsMap.ReadMap(System.String,System.String)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsMap.ReadMap(System.String,System.String)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsMap.ReadMap(System.String,System.String)
+Warn: ShowMissingComponent: Missing <param name="mapname"> documentation for M:BattleForm.clsMap.ReadMap(System.String,System.String)
+Warn: ShowMissingComponent: Missing <param name="tileset"> documentation for M:BattleForm.clsMap.ReadMap(System.String,System.String)
+Info: BuildAssembler: Building topic F:BattleForm.clsMap.sr
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsMap.sr
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsMap.sr
+Info: BuildAssembler: Building topic F:BattleForm.clsMap.TileImages
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsMap.TileImages
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsMap.TileImages
+Info: BuildAssembler: Building topic F:BattleForm.clsMap.Tiles
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsMap.Tiles
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsMap.Tiles
+Info: BuildAssembler: Building topic F:BattleForm.clsMap.walkable
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsMap.walkable
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsMap.walkable
+Info: BuildAssembler: Building topic F:BattleForm.clsMap.width
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsMap.width
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsMap.width
+Info: BuildAssembler: Building topic T:BattleForm.clsNPC
+Warn: ShowMissingComponent: Missing <summary> documentation for T:BattleForm.clsNPC
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:BattleForm.clsNPC
+Info: BuildAssembler: Building topic Methods.T:BattleForm.clsNPC
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Properties.T:BattleForm.clsNPC
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Fields.T:BattleForm.clsNPC
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic M:BattleForm.clsNPC.#ctor(System.String,System.Drawing.Point,BattleForm.clsSprite.dir,System.String)
+Info: ShowMissingComponent: Auto-documenting constructor M:BattleForm.clsNPC.#ctor(System.String,System.Drawing.Point,BattleForm.clsSprite.dir,System.String)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsNPC.#ctor(System.String,System.Drawing.Point,BattleForm.clsSprite.dir,System.String)
+Warn: ShowMissingComponent: Missing <param name="imagefolder"> documentation for M:BattleForm.clsNPC.#ctor(System.String,System.Drawing.Point,BattleForm.clsSprite.dir,System.String)
+Warn: ShowMissingComponent: Missing <param name="pos"> documentation for M:BattleForm.clsNPC.#ctor(System.String,System.Drawing.Point,BattleForm.clsSprite.dir,System.String)
+Warn: ShowMissingComponent: Missing <param name="defaultdirection"> documentation for M:BattleForm.clsNPC.#ctor(System.String,System.Drawing.Point,BattleForm.clsSprite.dir,System.String)
+Warn: ShowMissingComponent: Missing <param name="dialogloc"> documentation for M:BattleForm.clsNPC.#ctor(System.String,System.Drawing.Point,BattleForm.clsSprite.dir,System.String)
+Info: BuildAssembler: Building topic P:BattleForm.clsNPC.CurrentImage
+Warn: ShowMissingComponent: Missing <summary> documentation for P:BattleForm.clsNPC.CurrentImage
+Warn: ShowMissingComponent: Missing <remarks> documentation for P:BattleForm.clsNPC.CurrentImage
+Warn: ShowMissingComponent: Missing <value> documentation for P:BattleForm.clsNPC.CurrentImage
+Info: BuildAssembler: Building topic F:BattleForm.clsNPC.direction
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsNPC.direction
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsNPC.direction
+Info: BuildAssembler: Building topic F:BattleForm.clsNPC.folder
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsNPC.folder
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsNPC.folder
+Info: BuildAssembler: Building topic M:BattleForm.clsNPC.Load(System.String)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsNPC.Load(System.String)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsNPC.Load(System.String)
+Warn: ShowMissingComponent: Missing <param name="imagefolder"> documentation for M:BattleForm.clsNPC.Load(System.String)
+Info: BuildAssembler: Building topic F:BattleForm.clsNPC.position
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsNPC.position
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsNPC.position
+Info: BuildAssembler: Building topic F:BattleForm.clsNPC.spriteimage
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsNPC.spriteimage
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsNPC.spriteimage
+Info: BuildAssembler: Building topic M:BattleForm.clsNPC.UpdateMap
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsNPC.UpdateMap
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsNPC.UpdateMap
+Info: BuildAssembler: Building topic T:BattleForm.clsSprite
+Warn: ShowMissingComponent: Missing <summary> documentation for T:BattleForm.clsSprite
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:BattleForm.clsSprite
+Info: BuildAssembler: Building topic Methods.T:BattleForm.clsSprite
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Properties.T:BattleForm.clsSprite
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Fields.T:BattleForm.clsSprite
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic M:BattleForm.clsSprite.#ctor(System.String,System.Drawing.PointF)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsSprite.#ctor(System.String,System.Drawing.PointF)
+Warn: ShowMissingComponent: Missing <param name="startpos"> documentation for M:BattleForm.clsSprite.#ctor(System.String,System.Drawing.PointF)
+Info: BuildAssembler: Building topic M:BattleForm.clsSprite.Animate
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsSprite.Animate
+Info: BuildAssembler: Building topic F:BattleForm.clsSprite.direction
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsSprite.direction
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsSprite.direction
+Info: BuildAssembler: Building topic F:BattleForm.clsSprite.folder
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsSprite.folder
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsSprite.folder
+Info: BuildAssembler: Building topic F:BattleForm.clsSprite.frame
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsSprite.frame
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsSprite.frame
+Info: BuildAssembler: Building topic F:BattleForm.clsSprite.inmotion
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsSprite.inmotion
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsSprite.inmotion
+Info: BuildAssembler: Building topic M:BattleForm.clsSprite.MoveDown
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsSprite.MoveDown
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsSprite.MoveDown
+Info: BuildAssembler: Building topic M:BattleForm.clsSprite.MoveLeft
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsSprite.MoveLeft
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsSprite.MoveLeft
+Info: BuildAssembler: Building topic M:BattleForm.clsSprite.MoveRight
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsSprite.MoveRight
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsSprite.MoveRight
+Info: BuildAssembler: Building topic M:BattleForm.clsSprite.MoveUp
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsSprite.MoveUp
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsSprite.MoveUp
+Info: BuildAssembler: Building topic F:BattleForm.clsSprite.multiplier
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsSprite.multiplier
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsSprite.multiplier
+Info: BuildAssembler: Building topic F:BattleForm.clsSprite.numberofdirections
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsSprite.numberofdirections
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsSprite.numberofdirections
+Info: BuildAssembler: Building topic F:BattleForm.clsSprite.numberofframes
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsSprite.numberofframes
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsSprite.numberofframes
+Info: BuildAssembler: Building topic F:BattleForm.clsSprite.position
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsSprite.position
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsSprite.position
+Info: BuildAssembler: Building topic M:BattleForm.clsSprite.ReturnDirection(System.Int32)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.clsSprite.ReturnDirection(System.Int32)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsSprite.ReturnDirection(System.Int32)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:BattleForm.clsSprite.ReturnDirection(System.Int32)
+Warn: ShowMissingComponent: Missing <param name="currentdirection"> documentation for M:BattleForm.clsSprite.ReturnDirection(System.Int32)
+Info: BuildAssembler: Building topic F:BattleForm.clsSprite.sframe
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsSprite.sframe
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsSprite.sframe
+Info: BuildAssembler: Building topic F:BattleForm.clsSprite.SpriteImage
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsSprite.SpriteImage
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsSprite.SpriteImage
+Info: BuildAssembler: Building topic F:BattleForm.clsSprite.spritename
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsSprite.spritename
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsSprite.spritename
+Info: BuildAssembler: Building topic P:BattleForm.clsSprite.TilePosition
+Warn: ShowMissingComponent: Missing <summary> documentation for P:BattleForm.clsSprite.TilePosition
+Warn: ShowMissingComponent: Missing <remarks> documentation for P:BattleForm.clsSprite.TilePosition
+Warn: ShowMissingComponent: Missing <value> documentation for P:BattleForm.clsSprite.TilePosition
+Info: BuildAssembler: Building topic T:BattleForm.clsSprite.dir
+Warn: ShowMissingComponent: Missing <summary> documentation for T:BattleForm.clsSprite.dir
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:BattleForm.clsSprite.dir
+Info: BuildAssembler: Building topic T:BattleForm.clsTrainer
+Warn: ShowMissingComponent: Missing <summary> documentation for T:BattleForm.clsTrainer
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:BattleForm.clsTrainer
+Info: BuildAssembler: Building topic Fields.T:BattleForm.clsTrainer
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic M:BattleForm.clsTrainer.#ctor(System.String,System.Drawing.PointF)
+Info: ShowMissingComponent: Auto-documenting constructor M:BattleForm.clsTrainer.#ctor(System.String,System.Drawing.PointF)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.clsTrainer.#ctor(System.String,System.Drawing.PointF)
+Warn: ShowMissingComponent: Missing <param name="nameofsprite"> documentation for M:BattleForm.clsTrainer.#ctor(System.String,System.Drawing.PointF)
+Warn: ShowMissingComponent: Missing <param name="startpos"> documentation for M:BattleForm.clsTrainer.#ctor(System.String,System.Drawing.PointF)
+Info: BuildAssembler: Building topic F:BattleForm.clsTrainer.edjimon
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.clsTrainer.edjimon
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.clsTrainer.edjimon
+Info: BuildAssembler: Building topic T:BattleForm.frmBattle
+Warn: ShowMissingComponent: Missing <summary> documentation for T:BattleForm.frmBattle
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:BattleForm.frmBattle
+Info: BuildAssembler: Building topic Methods.T:BattleForm.frmBattle
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Fields.T:BattleForm.frmBattle
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.Dispose
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.Select
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.Show
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.ShowDialog
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.ValidateChildren
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.Scale
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.Validate
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.AccessibilityNotifyClients
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.BeginInvoke
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.GetChildAtPoint
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.Invalidate
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.Invoke
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.PerformLayout
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.ResumeLayout
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.SetBounds
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.RtlTranslateAlignment
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.UpdateBounds
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmBattle.MemberwiseClone
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic M:BattleForm.frmBattle.#ctor(BattleForm.clsEdjimon,BattleForm.clsEdjimon)
+Info: ShowMissingComponent: Auto-documenting constructor M:BattleForm.frmBattle.#ctor(BattleForm.clsEdjimon,BattleForm.clsEdjimon)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmBattle.#ctor(BattleForm.clsEdjimon,BattleForm.clsEdjimon)
+Warn: ShowMissingComponent: Missing <param name="edPlayer"> documentation for M:BattleForm.frmBattle.#ctor(BattleForm.clsEdjimon,BattleForm.clsEdjimon)
+Warn: ShowMissingComponent: Missing <param name="edEnemy"> documentation for M:BattleForm.frmBattle.#ctor(BattleForm.clsEdjimon,BattleForm.clsEdjimon)
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.btnAttack1
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.btnAttack1
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.btnAttack1
+Info: BuildAssembler: Building topic M:BattleForm.frmBattle.btnAttack1_Click(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.frmBattle.btnAttack1_Click(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmBattle.btnAttack1_Click(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <param name="sender"> documentation for M:BattleForm.frmBattle.btnAttack1_Click(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <param name="e"> documentation for M:BattleForm.frmBattle.btnAttack1_Click(System.Object,System.EventArgs)
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.btnAttack2
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.btnAttack2
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.btnAttack2
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.btnAttack3
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.btnAttack3
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.btnAttack3
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.btnAttack4
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.btnAttack4
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.btnAttack4
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.btnClose
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.btnClose
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.btnClose
+Info: BuildAssembler: Building topic M:BattleForm.frmBattle.btnClose_Click(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.frmBattle.btnClose_Click(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmBattle.btnClose_Click(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <param name="sender"> documentation for M:BattleForm.frmBattle.btnClose_Click(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <param name="e"> documentation for M:BattleForm.frmBattle.btnClose_Click(System.Object,System.EventArgs)
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.btnFlee
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.btnFlee
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.btnFlee
+Info: BuildAssembler: Building topic M:BattleForm.frmBattle.btnFlee_Click(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.frmBattle.btnFlee_Click(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmBattle.btnFlee_Click(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <param name="sender"> documentation for M:BattleForm.frmBattle.btnFlee_Click(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <param name="e"> documentation for M:BattleForm.frmBattle.btnFlee_Click(System.Object,System.EventArgs)
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.components
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.components
+Info: BuildAssembler: Building topic M:BattleForm.frmBattle.Cycle(BattleForm.clsEdjimon,BattleForm.clsEdjimon,System.Int32)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.frmBattle.Cycle(BattleForm.clsEdjimon,BattleForm.clsEdjimon,System.Int32)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmBattle.Cycle(BattleForm.clsEdjimon,BattleForm.clsEdjimon,System.Int32)
+Warn: ShowMissingComponent: Missing <param name="edPlayer"> documentation for M:BattleForm.frmBattle.Cycle(BattleForm.clsEdjimon,BattleForm.clsEdjimon,System.Int32)
+Warn: ShowMissingComponent: Missing <param name="edEnemy"> documentation for M:BattleForm.frmBattle.Cycle(BattleForm.clsEdjimon,BattleForm.clsEdjimon,System.Int32)
+Warn: ShowMissingComponent: Missing <param name="playermove"> documentation for M:BattleForm.frmBattle.Cycle(BattleForm.clsEdjimon,BattleForm.clsEdjimon,System.Int32)
+Info: BuildAssembler: Building topic M:BattleForm.frmBattle.Dispose(System.Boolean)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmBattle.Dispose(System.Boolean)
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.edEnemy
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.edEnemy
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.edEnemy
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.edPlayer
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.edPlayer
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.edPlayer
+Info: BuildAssembler: Building topic M:BattleForm.frmBattle.InitializeComponent
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmBattle.InitializeComponent
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.lblAttack
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.lblAttack
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.lblAttack
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.lblEnemyName
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.lblEnemyName
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.lblEnemyName
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.lblEnemyType
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.lblEnemyType
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.lblEnemyType
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.lblPlayerName
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.lblPlayerName
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.lblPlayerName
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.lblPlayerType
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.lblPlayerType
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.lblPlayerType
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.panel1
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.panel1
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.panel1
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.pbEnemyHP
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.pbEnemyHP
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.pbEnemyHP
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.pbPlayerHP
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.pbPlayerHP
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.pbPlayerHP
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.picEnemy
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.picEnemy
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.picEnemy
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.picPlayer
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.picPlayer
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.picPlayer
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.pictureboxEnemy
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.pictureboxEnemy
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.pictureboxEnemy
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.pictureboxPlayer
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.pictureboxPlayer
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.pictureboxPlayer
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.player_turn
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.player_turn
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.player_turn
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.tabAttack
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.tabAttack
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.tabAttack
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.tabctlOptions
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.tabctlOptions
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.tabctlOptions
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.tabPack
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.tabPack
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.tabPack
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.titlebar
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.titlebar
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.titlebar
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.tooledjimon
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.tooledjimon
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.tooledjimon
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.toolStripButton1
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.toolStripButton1
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.toolStripButton1
+Info: BuildAssembler: Building topic F:BattleForm.frmBattle.toolStripButton2
+Warn: ShowMissingComponent: Missing <summary> documentation for F:BattleForm.frmBattle.toolStripButton2
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmBattle.toolStripButton2
+Info: BuildAssembler: Building topic T:BattleForm.frmGameMain
+Warn: ShowMissingComponent: Missing <summary> documentation for T:BattleForm.frmGameMain
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:BattleForm.frmGameMain
+Info: BuildAssembler: Building topic Methods.T:BattleForm.frmGameMain
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Fields.T:BattleForm.frmGameMain
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.Dispose
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.Select
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.Show
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.ShowDialog
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.ValidateChildren
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.Scale
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.Validate
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.AccessibilityNotifyClients
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.BeginInvoke
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.GetChildAtPoint
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.Invalidate
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.Invoke
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.PerformLayout
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.ResumeLayout
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.SetBounds
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.RtlTranslateAlignment
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.UpdateBounds
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:BattleForm.frmGameMain.MemberwiseClone
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic M:BattleForm.frmGameMain.#ctor
+Info: ShowMissingComponent: Auto-documenting constructor M:BattleForm.frmGameMain.#ctor
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmGameMain.#ctor
+Info: BuildAssembler: Building topic F:BattleForm.frmGameMain.components
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:BattleForm.frmGameMain.components
+Info: BuildAssembler: Building topic M:BattleForm.frmGameMain.Dispose(System.Boolean)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmGameMain.Dispose(System.Boolean)
+Info: BuildAssembler: Building topic M:BattleForm.frmGameMain.Form1_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.frmGameMain.Form1_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmGameMain.Form1_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)
+Warn: ShowMissingComponent: Missing <param name="sender"> documentation for M:BattleForm.frmGameMain.Form1_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)
+Warn: ShowMissingComponent: Missing <param name="e"> documentation for M:BattleForm.frmGameMain.Form1_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)
+Info: BuildAssembler: Building topic M:BattleForm.frmGameMain.Form1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.frmGameMain.Form1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmGameMain.Form1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)
+Warn: ShowMissingComponent: Missing <param name="sender"> documentation for M:BattleForm.frmGameMain.Form1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)
+Warn: ShowMissingComponent: Missing <param name="e"> documentation for M:BattleForm.frmGameMain.Form1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)
+Info: BuildAssembler: Building topic M:BattleForm.frmGameMain.Form1_Load(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.frmGameMain.Form1_Load(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmGameMain.Form1_Load(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <param name="sender"> documentation for M:BattleForm.frmGameMain.Form1_Load(System.Object,System.EventArgs)
+Warn: ShowMissingComponent: Missing <param name="e"> documentation for M:BattleForm.frmGameMain.Form1_Load(System.Object,System.EventArgs)
+Info: BuildAssembler: Building topic M:BattleForm.frmGameMain.Form1_Paint(System.Object,System.Windows.Forms.PaintEventArgs)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:BattleForm.frmGameMain.Form1_Paint(System.Object,System.Windows.Forms.PaintEventArgs)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmGameMain.Form1_Paint(System.Object,System.Windows.Forms.PaintEventArgs)
+Warn: ShowMissingComponent: Missing <param name="sender"> documentation for M:BattleForm.frmGameMain.Form1_Paint(System.Object,System.Windows.Forms.PaintEventArgs)
+Warn: ShowMissingComponent: Missing <param name="e"> documentation for M:BattleForm.frmGameMain.Form1_Paint(System.Object,System.Windows.Forms.PaintEventArgs)
+Info: BuildAssembler: Building topic M:BattleForm.frmGameMain.InitializeComponent
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmGameMain.InitializeComponent
+Info: BuildAssembler: Building topic M:BattleForm.frmGameMain.OnPaintBackground(System.Windows.Forms.PaintEventArgs)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.frmGameMain.OnPaintBackground(System.Windows.Forms.PaintEventArgs)
+Info: BuildAssembler: Building topic M:BattleForm.Program.Main
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:BattleForm.Program.Main
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:BattleForm.Program'.
+Info: BuildAssembler: Building topic N:SmoothProgressBar
+Info: BuildAssembler: Building topic T:SmoothProgressBar.SmoothProgressBar
+Warn: ShowMissingComponent: Missing <remarks> documentation for T:SmoothProgressBar.SmoothProgressBar
+Info: BuildAssembler: Building topic Methods.T:SmoothProgressBar.SmoothProgressBar
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Properties.T:SmoothProgressBar.SmoothProgressBar
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Fields.T:SmoothProgressBar.SmoothProgressBar
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.Dispose
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.ValidateChildren
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.Scale
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.Select
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.Validate
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.AccessibilityNotifyClients
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.BeginInvoke
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.GetChildAtPoint
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.Invalidate
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.Invoke
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.PerformLayout
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.ResumeLayout
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.SetBounds
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.RtlTranslateAlignment
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.UpdateBounds
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic Overload:SmoothProgressBar.SmoothProgressBar.MemberwiseClone
+Warn: ResolveReferenceLinksComponent2: Invalid referenceLink element.
+Info: BuildAssembler: Building topic M:SmoothProgressBar.SmoothProgressBar.#ctor
+Info: ShowMissingComponent: Auto-documenting constructor M:SmoothProgressBar.SmoothProgressBar.#ctor
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:SmoothProgressBar.SmoothProgressBar.#ctor
+Info: BuildAssembler: Building topic F:SmoothProgressBar.SmoothProgressBar.BarColor
+Warn: ShowMissingComponent: Missing <summary> documentation for F:SmoothProgressBar.SmoothProgressBar.BarColor
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:SmoothProgressBar.SmoothProgressBar.BarColor
+Info: BuildAssembler: Building topic F:SmoothProgressBar.SmoothProgressBar.components
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:SmoothProgressBar.SmoothProgressBar.components
+Info: BuildAssembler: Building topic M:SmoothProgressBar.SmoothProgressBar.Dispose(System.Boolean)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:SmoothProgressBar.SmoothProgressBar.Dispose(System.Boolean)
+Info: BuildAssembler: Building topic M:SmoothProgressBar.SmoothProgressBar.Draw3DBorder(System.Drawing.Graphics)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:SmoothProgressBar.SmoothProgressBar.Draw3DBorder(System.Drawing.Graphics)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:SmoothProgressBar.SmoothProgressBar.Draw3DBorder(System.Drawing.Graphics)
+Warn: ShowMissingComponent: Missing <param name="g"> documentation for M:SmoothProgressBar.SmoothProgressBar.Draw3DBorder(System.Drawing.Graphics)
+Info: BuildAssembler: Building topic M:SmoothProgressBar.SmoothProgressBar.InitializeComponent
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:SmoothProgressBar.SmoothProgressBar.InitializeComponent
+Info: BuildAssembler: Building topic F:SmoothProgressBar.SmoothProgressBar.max
+Warn: ShowMissingComponent: Missing <summary> documentation for F:SmoothProgressBar.SmoothProgressBar.max
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:SmoothProgressBar.SmoothProgressBar.max
+Info: BuildAssembler: Building topic P:SmoothProgressBar.SmoothProgressBar.Maximum
+Warn: ShowMissingComponent: Missing <summary> documentation for P:SmoothProgressBar.SmoothProgressBar.Maximum
+Warn: ShowMissingComponent: Missing <remarks> documentation for P:SmoothProgressBar.SmoothProgressBar.Maximum
+Warn: ShowMissingComponent: Missing <value> documentation for P:SmoothProgressBar.SmoothProgressBar.Maximum
+Info: BuildAssembler: Building topic F:SmoothProgressBar.SmoothProgressBar.min
+Warn: ShowMissingComponent: Missing <summary> documentation for F:SmoothProgressBar.SmoothProgressBar.min
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:SmoothProgressBar.SmoothProgressBar.min
+Info: BuildAssembler: Building topic P:SmoothProgressBar.SmoothProgressBar.Minimum
+Warn: ShowMissingComponent: Missing <summary> documentation for P:SmoothProgressBar.SmoothProgressBar.Minimum
+Warn: ShowMissingComponent: Missing <remarks> documentation for P:SmoothProgressBar.SmoothProgressBar.Minimum
+Warn: ShowMissingComponent: Missing <value> documentation for P:SmoothProgressBar.SmoothProgressBar.Minimum
+Info: BuildAssembler: Building topic M:SmoothProgressBar.SmoothProgressBar.OnPaint(System.Windows.Forms.PaintEventArgs)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:SmoothProgressBar.SmoothProgressBar.OnPaint(System.Windows.Forms.PaintEventArgs)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:SmoothProgressBar.SmoothProgressBar.OnPaint(System.Windows.Forms.PaintEventArgs)
+Warn: ShowMissingComponent: Missing <param name="e"> documentation for M:SmoothProgressBar.SmoothProgressBar.OnPaint(System.Windows.Forms.PaintEventArgs)
+Info: BuildAssembler: Building topic M:SmoothProgressBar.SmoothProgressBar.OnResize(System.EventArgs)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:SmoothProgressBar.SmoothProgressBar.OnResize(System.EventArgs)
+Warn: ShowMissingComponent: Missing <remarks> documentation for M:SmoothProgressBar.SmoothProgressBar.OnResize(System.EventArgs)
+Warn: ShowMissingComponent: Missing <param name="e"> documentation for M:SmoothProgressBar.SmoothProgressBar.OnResize(System.EventArgs)
+Info: BuildAssembler: Building topic P:SmoothProgressBar.SmoothProgressBar.ProgressBarColor
+Warn: ShowMissingComponent: Missing <summary> documentation for P:SmoothProgressBar.SmoothProgressBar.ProgressBarColor
+Warn: ShowMissingComponent: Missing <remarks> documentation for P:SmoothProgressBar.SmoothProgressBar.ProgressBarColor
+Warn: ShowMissingComponent: Missing <value> documentation for P:SmoothProgressBar.SmoothProgressBar.ProgressBarColor
+Info: BuildAssembler: Building topic F:SmoothProgressBar.SmoothProgressBar.val
+Warn: ShowMissingComponent: Missing <summary> documentation for F:SmoothProgressBar.SmoothProgressBar.val
+Warn: ShowMissingComponent: Missing <remarks> documentation for F:SmoothProgressBar.SmoothProgressBar.val
+Info: BuildAssembler: Building topic P:SmoothProgressBar.SmoothProgressBar.Value
+Warn: ShowMissingComponent: Missing <summary> documentation for P:SmoothProgressBar.SmoothProgressBar.Value
+Warn: ShowMissingComponent: Missing <remarks> documentation for P:SmoothProgressBar.SmoothProgressBar.Value
+Warn: ShowMissingComponent: Missing <value> documentation for P:SmoothProgressBar.SmoothProgressBar.Value
+Info: Processed 251 topics
+    Last step completed in 00:01:56.9219
+-------------------------------
+Generating intermediate table of content file...
+[D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\GenerateIntermediateTOC.bat]
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\CreateVSToc.xsl'.
+    Last step completed in 00:00:07.8125
+-------------------------------
+Generating HTML Help 1.x table of content file...
+[D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Generate1xTOC.bat]
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\TocToChmContents.xsl'.
+    Last step completed in 00:00:06.5938
+Updating table of content with additional content items and determining default topic...
+    Last step completed in 00:00:00.2656
+-------------------------------
+Generating HTML Help 1.x index file...
+[D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Generate1xIndex.bat]
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\ReflectionToChmIndex.xsl'.
+    Last step completed in 00:00:01.0469
+-------------------------------
+Generating HTML Help 1.x project file...
+    Last step completed in 00:00:00.1719
+-------------------------------
+Compiling HTML Help 1.x file...
+[D:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Build1xHelpFile.bat]
+Microsoft HTML Help Compiler 4.74.8702
+
+
+
+Compiling d:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\Documentation.chm
+
+
+
+
+
+Compile time: 0 minutes, 6 seconds
+
+253	Topics
+
+1,579	Local links
+
+0	Internet links
+
+0	Graphics
+
+
+
+
+
+Created d:\My Documents\Visual Studio 2005\Projects\BattleForm\Help\Working\Output\Documentation.chm, 589,539 bytes
+
+Compression decreased file by 4,551,110 bytes.
+
+    Last step completed in 00:00:09.2188
+Removing intermediate files...
+    Last step completed in 00:00:00.4063
+
+
+Build completed successfully.  Total time: 00:02:46.1250
+

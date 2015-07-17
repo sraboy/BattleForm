@@ -1,0 +1,36 @@
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\BattleForm.exe
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\BattleForm.pdb
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\SmoothProgressBar.dll
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\SmoothProgressBar.pdb
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\SmoothProgressBar.xml
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\ResolveAssemblyReference.cache
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.frmBattle.resources
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.frmGameMain.resources
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.Properties.Resources.resources
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.csproj.GenerateResource.Cache
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.exe
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.pdb
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.TrustInfo.xml
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.exe.manifest
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\BattleForm.exe.manifest
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\BattleForm.application
+d:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.application
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\BattleForm.xml
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.exe
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.pdb
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\BattleForm.exe.manifest
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\BattleForm.application
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\BattleForm.exe
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\BattleForm.pdb
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\SmoothProgressBar.dll
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\SmoothProgressBar.pdb
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\SmoothProgressBar.xml
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.frmBattle.resources
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.frmGameMain.resources
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.Properties.Resources.resources
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.csproj.GenerateResource.Cache
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.TrustInfo.xml
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.exe.manifest
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.application
+D:\My Documents\My Programming\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\BattleForm.xml

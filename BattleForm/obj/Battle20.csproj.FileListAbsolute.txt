@@ -1,0 +1,13 @@
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.exe
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.pdb
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\BattleForm.exe
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\BattleForm.pdb
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\SmoothProgressBar.dll
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\SmoothProgressBar.pdb
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\SmoothProgressBar.xml
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.frmBattle.resources
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.frmGameMain.resources
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\BattleForm.Properties.Resources.resources
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\obj\Debug\Battle20.csproj.GenerateResource.Cache
+D:\Visual Studio 2005\Projects\BattleForm\BattleForm\bin\Debug\BattleForm.xml

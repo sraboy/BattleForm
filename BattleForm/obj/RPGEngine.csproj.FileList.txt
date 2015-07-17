@@ -1,0 +1,16 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BattleForm.Form1.resources
+obj\Debug\BattleForm.Properties.Resources.resources
+obj\Debug\RPGEngine.csproj.GenerateResource.Cache
+bin\Debug\BattleForm.exe
+bin\Debug\BattleForm.pdb
+obj\Debug\BattleForm.exe
+obj\Debug\BattleForm.pdb
+bin\Release\BattleForm.exe
+bin\Release\BattleForm.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\BattleForm.Form1.resources
+obj\Release\BattleForm.Properties.Resources.resources
+obj\Release\RPGEngine.csproj.GenerateResource.Cache
+obj\Release\BattleForm.exe
+obj\Release\BattleForm.pdb

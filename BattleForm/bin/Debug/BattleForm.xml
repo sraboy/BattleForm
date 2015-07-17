@@ -1,0 +1,586 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BattleForm</name>
+    </assembly>
+    <members>
+        <member name="F:BattleForm.clsAttack.typematrix">
+            <summary>
+            This is a numerical representation of the attack
+            matrix from the Edjipedia. The damage is either 
+            half, full, or double depending on the types
+            of the attacker and defender.
+            </summary>
+        </member>
+        <member name="M:BattleForm.clsAttack.Attack(BattleForm.clsBattle.type,BattleForm.clsBattle.type,System.Int32,System.Int32)">
+            <returns>Amount of HP lost to defender. A negative number signifies Attacker's loss.</returns>
+        </member>
+        <member name="M:BattleForm.frmBattle.Cycle(BattleForm.clsEdjimon,BattleForm.clsEdjimon,System.Int32)">
+            <summary>
+            Represents a turn in battle.
+            </summary>
+            <param name="edPlayer">The player's Edjimon.</param>
+            <param name="edEnemy">The enemy's Edjimon.</param>
+            <param name="playermove">What number move the player is using. ?CHECK THIS?</param>
+        </member>
+        <member name="F:BattleForm.frmBattle.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BattleForm.frmBattle.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BattleForm.frmBattle.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BattleForm.clsBattle">
+            <summary>
+            Represents an encounter with an opponent, a battle with either a trainer or wild Edjimon.
+            </summary>
+        </member>
+        <member name="T:BattleForm.clsBattle.type">
+            <summary>
+            The type of the Edjimon dictates abilities and defenses.
+            </summary>
+        </member>
+        <member name="T:BattleForm.clsCollision">
+            <summary>
+            The only real physics in this game is checking for a 2-D collision.
+            </summary>
+        </member>
+        <member name="T:BattleForm.clsEdjimon">
+            <summary>
+            Represents the creature, "Edjimon". This creature has stats dictating its abilities, hit points, speed, etc.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.arraypos">
+            <summary>
+            Internal variable that specifies 0-5, where the Edjimon lies in the clsTrainer array.
+            It is used in frmBattle when saving the information back to the game copy of the Edjimon.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.rarity">
+            <summary>
+            The number represents the odds of seeing the Edjimon in the wild.
+            1: 89%
+            2: 10%
+            3: 1%
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.experience">
+            <summary>
+            Experience points add up so an Edjimon may increase in level and therefore their stats increase.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.minlevel">
+            <summary>
+            Used for wild Edjimon. Dictates lowest level that can be encountered on that map.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.maxlevel">
+            <summary>
+            Used for wild Edjimon. Dictates highest level that can be encountered on that map.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.currentlevel">
+            <summary>
+            The current level of the Edjimon. The level dictates the stats.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.maxHP">
+            <summary>
+            If the Edjimon's HP is full, this is what it will be.
+            This increases with level.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.currentHP">
+            <summary>
+            The current HP.
+            This increases with level.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.attack">
+            <summary>
+            The attack rating calculated by a formula based on level.
+            This increases with level.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.defense">
+            <summary>
+            The defense rating calculated by a formula based on level.
+            This increases with level.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.speed">
+            <summary>
+            The speed rating calculated by a formula based on level.
+            This determines who goes first in a battle.
+            This increases with level.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.accuracy">
+            <summary>
+            The accuracy rating calculated by a formula based on level.
+            The higher the rating, the less likely the Edjimon is to miss his opponent.
+            This increases with level.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.levelup">
+            <summary>
+            Contains the experience points required to level up.
+            The index equals the level and the value is the requirement for that level.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.cel">
+            <summary>
+            The evasiveness rating calculated by a formula based on level.
+            The higher the rating, the less likely the Edjimon is to miss his opponent.
+            This increases with level.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.pics">
+            <summary>
+            Contains the pictures for the battle screen.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.name">
+            <summary>
+            The actual name of the Edjimon as prescribed by the Edjidex.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.nickname">
+            <summary>
+            The user-defined nickname.
+            This is not used for wild edjimon.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.number">
+            <summary>
+            The Edjidex-prescribed number for the Edjimon.
+            It is a string so that it stays at 3 digits at all times.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.type">
+            <summary>
+            Edjimon have strengths and weaknesses based upon the attack type or Edjimon type.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.attack_types">
+            <summary>
+            Defines the type of each of the attacks.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEdjimon.attacks">
+            <summary>
+            The names of the attacks.
+            </summary>
+        </member>
+        <member name="M:BattleForm.clsEdjimon.#ctor(System.Int32)">
+            <summary>
+            Create a specific edjimon.
+            </summary>
+            <param name="num">Pass the number of the Edjimon so the information can be read from a .edjimon file.</param>
+        </member>
+        <member name="M:BattleForm.clsEdjimon.#ctor">
+            <summary>
+            Create an edjimon.
+            </summary>
+        </member>
+        <member name="T:BattleForm.clsEvent">
+            <summary>
+            Represents an event in the game, such as changing maps or a battle.
+            </summary>
+        </member>
+        <member name="F:BattleForm.clsEvent.oldpos">
+            <summary>
+            Contains the position the sprite is moving from
+            </summary>
+        </member>
+        <member name="T:BattleForm.clsLevel">
+            <summary>
+            LVL file format:
+            mapfile.map
+            tilesetName
+            PlayerStartTileX,PlayerStartTileY
+            NPCs:2
+            NPC_1_name, folderOfImages, x,y, direction, dialoguelocation
+            NPC_2_name, folderOfImages, x,y, direction, dialoguelocation
+            </summary>
+        </member>
+        <member name="T:BattleForm.clsMap">
+            <summary>
+            This class is the physical map you walk on.
+            It reads the map files to find tiles and
+            reads information regarding whether or not a
+            tile is passable.
+            </summary>
+        </member>
+        <member name="M:BattleForm.clsSprite.#ctor(System.String,System.Drawing.PointF)">
+            <summary>
+            Creates a new sprite with the ability to move and animate.
+            </summary>
+            <param name="nameofsprite">The name of the sprite to be created.</param>
+        </member>
+        <member name="M:BattleForm.clsSprite.Animate">
+            <summary>
+            Cycle through frames in the sprite.
+            </summary>
+        </member>
+        <member name="M:BattleForm.frmGameMain.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Gives us a black background when the method is empty
+            </summary>
+            <param name="e">Color to paint</param>
+        </member>
+        <member name="F:BattleForm.frmGameMain.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BattleForm.frmGameMain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BattleForm.frmGameMain.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:BattleForm.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:BattleForm.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Aircrew1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Aires1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Aurorite1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Boulda1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Bronze_Construct1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Cion1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Cire1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Cloudd1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Combustor1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Corpse1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Drift1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Electreel1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Ent1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Excitrik1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Floikes1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Gunnery1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Guns1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Hellion1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Hermit1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Hiss1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Icekerzo1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Incubat1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Iron_Construct1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Kitticar1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Kommion1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Komsaikai1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Laziclaw1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Mantid1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Mountking1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Namu1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Orite1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Oryion1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Pebblia1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Piss_Puddle1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Poliba1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Ponder1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Ravipion1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Rockin1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Rocky1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Roughion1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Scorpo1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Skyte1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Smogg1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Snowball1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Snowstrom1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.SteelCons1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Stickum1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Streamain1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Supresloth1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Tankimnida1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Thormion1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Toasti1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Treep1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Vinyan1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Volchick1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Volcipeon1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.vRaptor1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Waterwing1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Wraith1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Zapawk1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BattleForm.Properties.Resources.Zombones1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>
