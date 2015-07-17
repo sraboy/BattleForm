@@ -1,4 +1,4 @@
-# BattleForm
+# BattleForm (aka Edjimon)
 A Pokemon-style game that never made it past the alpha stage several years ago. Check out the few PNG images in the root directory showing the current state of the game (ss-xxxx.png). BattleForm was just the working title as I migrated part of the original VB6 base to the new WinForms. If I remember correctly, the game started in VB6, migrated to VB.NET before I got fed up with VB and switched to CS. The project currently builds under Visual Studio 2013 Community Edition, targeting .NET 2.0, with no issues. Surprisingly, I left the code in a mostly workable form when I last touched it in 2009ish. A couple lines had to be edited in frmBattle.Designer.cs to get it to build; just a matter of variable initialization.
 
 I'm proud I made it this far with this game so many years ago but I disclaim any warranty of stability or anything else. This is terribly written code smashed out by a bored college student on a dry campus late at night -- instead of studying for that damn chemistry exam.
