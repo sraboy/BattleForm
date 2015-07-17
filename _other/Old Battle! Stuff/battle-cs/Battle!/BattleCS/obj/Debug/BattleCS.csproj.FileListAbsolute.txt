@@ -1,0 +1,4 @@
+X:\My Programming\DotNET\Old Battle! Stuff\battle-cs\Battle!\BattleCS\obj\Debug\ResolveAssemblyReference.cache
+X:\My Programming\DotNET\Old Battle! Stuff\battle-cs\Battle!\BattleCS\obj\Debug\BattleCS.Properties.Resources.resources
+X:\My Programming\DotNET\Old Battle! Stuff\battle-cs\Battle!\BattleCS\obj\Debug\BattleCS.textures.resources
+X:\My Programming\DotNET\Old Battle! Stuff\battle-cs\Battle!\BattleCS\obj\Debug\BattleCS.csproj.GenerateResource.Cache

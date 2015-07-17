@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B699E50-08F2-4681-AD1E-491781631C8F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Battle_.My.MyApplication</StartupObject>
+    <RootNamespace>Battle_</RootNamespace>
+    <AssemblyName>Battle!</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>http://localhost/Battle!/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Battle!.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Battle!.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseFirst.Designer.vb">
+      <DependentUpon>ChooseFirst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseFirst.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stats.Designer.vb">
+      <DependentUpon>Stats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="old-frmMap.Designer.vb">
+      <DependentUpon>old-frmMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="old-frmMap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="Module2.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="textures.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>textures.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Main.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseFirst.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChooseFirst.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stats.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Stats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="old-frmMap.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>old-frmMap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="textures.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>textures.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aircrew.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aires.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aurorite.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boulda.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BronzeConsA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cire.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cloudd.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Combustor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Corpse.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drift.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Electreel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EntA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excitrik.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Floikes.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GunneryA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GunsA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hellion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hermit.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HissA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icekerzo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Incubat.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IronCons.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kitticar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kommion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Komsaikai.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laziclaw.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mantid.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mountking.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NamuA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OriteA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oryion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pebblia.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PissPuddle.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PolibaA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ponder.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ravipion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rockin.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rocky.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roughion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScorpoA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkyteA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smogg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snowball.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snowstrom.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SteelConsA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stickum.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Streamain.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Supresloth.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TankimnidaA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thormion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toasti.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\treep.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VinyanA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VolchickA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volcipeon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vRaptor%281%29.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Waterwing.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wraith.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zapawk.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombones.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

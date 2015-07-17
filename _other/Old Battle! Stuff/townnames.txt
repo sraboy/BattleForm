@@ -1,0 +1,13 @@
+City names 
+1 Dawn 			'20
+2 Lirpom 		'18
+3 Tirpimo City 		'17
+4 Oreville 		'21
+5 Mahogitown 		'16
+6 Central 		'19
+7 Shijak Town 		'11
+8 Ahpville 		'14
+9 Padatka City 		'22
+10 Raupolis 		'12
+11 Jay Town 		'13
+12 Eden			'15

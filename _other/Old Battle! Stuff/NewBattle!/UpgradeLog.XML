@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Battle!">
+</Property><Property Name="Solution File" Value="X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Battle!.sln">
+</Property><Property Name="User Options File" Value="X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Battle!.suo">
+</Property><Property Name="Date" Value="Thursday, February 05, 2009">
+</Property><Property Name="Time" Value="10:24 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Battle!.sln" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Battle!.suo" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!.suo">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Battle!.vbproj" Description="Project file successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\Battle!.vbproj">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Edjimons.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\Edjimons.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Enemy.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\Enemy.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Form1.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\Form1.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Form1.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\Form1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Form2.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\Form2.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Form2.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\Form2.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Form3.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\Form3.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Form3.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\Form3.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\frmMap.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\frmMap.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\frmMap.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\frmMap.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Module1.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\Module1.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Module2.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\Module2.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\My Project\AssemblyInfo.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\My Project\Application.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\My Project\Resources.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\My Project\Settings.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\SelectChar.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\SelectChar.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\SelectChar.vb" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\SelectChar.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\My Project\Application.myapp" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\My Project\Settings.settings" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Form1.resx" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Form2.resx" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\Form2.resx">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Form3.resx" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\Form3.resx">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\frmMap.resx" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\frmMap.resx">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\My Project\Resources.resx" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\SelectChar.resx" Description="File successfully backed up as X:\My Programming\DotNET\Old Battle! Stuff\NewBattle!\Backup\Battle!\SelectChar.resx">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Battle!.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Battle!" Source="Battle!\Battle!.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Battle!.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Battle!.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Battle!.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,4 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BattleCS.Properties.Resources.resources
+obj\Debug\BattleCS.textures.resources
+obj\Debug\BattleCS.csproj.GenerateResource.Cache

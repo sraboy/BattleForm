@@ -1,0 +1,21 @@
+X:\My Programming\DotNET\Battle!\Battle!\obj\Debug\Battle!.exe
+X:\My Programming\DotNET\Battle!\Battle!\obj\Debug\Battle!.xml
+X:\My Programming\DotNET\Battle!\Battle!\obj\Debug\Battle!.pdb
+X:\My Programming\DotNET\Battle!\Battle!\obj\Debug\ResolveAssemblyReference.cache
+X:\My Programming\DotNET\Battle!\Battle!\obj\Debug\Battle_.Main.resources
+X:\My Programming\DotNET\Battle!\Battle!\obj\Debug\Battle_.ChooseFirst.resources
+X:\My Programming\DotNET\Battle!\Battle!\obj\Debug\Battle_.Stats.resources
+X:\My Programming\DotNET\Battle!\Battle!\obj\Debug\Battle_.frmMap.resources
+X:\My Programming\DotNET\Battle!\Battle!\obj\Debug\Battle_.Resources.resources
+X:\My Programming\DotNET\Battle!\Battle!\obj\Debug\Battle_.textures.resources
+X:\My Programming\DotNET\Battle!\Battle!\obj\Debug\Battle!.vbproj.GenerateResource.Cache
+E:\Nerd\DotNET\Battle_VB\Battle!\obj\Debug\Battle!.exe
+E:\Nerd\DotNET\Battle_VB\Battle!\obj\Debug\Battle!.xml
+E:\Nerd\DotNET\Battle_VB\Battle!\obj\Debug\Battle!.pdb
+E:\Nerd\DotNET\Battle_VB\Battle!\obj\Debug\Battle_.Main.resources
+E:\Nerd\DotNET\Battle_VB\Battle!\obj\Debug\Battle_.ChooseFirst.resources
+E:\Nerd\DotNET\Battle_VB\Battle!\obj\Debug\Battle_.Stats.resources
+E:\Nerd\DotNET\Battle_VB\Battle!\obj\Debug\Battle_.frmMap.resources
+E:\Nerd\DotNET\Battle_VB\Battle!\obj\Debug\Battle_.Resources.resources
+E:\Nerd\DotNET\Battle_VB\Battle!\obj\Debug\Battle_.textures.resources
+E:\Nerd\DotNET\Battle_VB\Battle!\obj\Debug\Battle!.vbproj.GenerateResource.Cache

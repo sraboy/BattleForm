@@ -1,0 +1,298 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{556BD311-BBC6-4289-A0D7-68179F654F73}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BattleCS</RootNamespace>
+    <AssemblyName>BattleCS</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChooseFirst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseFirst.designer.cs">
+      <DependentUpon>ChooseFirst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module1.cs" />
+    <Compile Include="Module2.cs" />
+    <Compile Include="old-frmMap.cs" />
+    <Compile Include="old-frmMap.designer.cs">
+      <DependentUpon>old-frmMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="textures.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>textures.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Stats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stats.designer.cs">
+      <DependentUpon>Stats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="textures.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>textures.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aircrew.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aires.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aurorite.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boulda.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BronzeConsA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cire.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cloudd.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Combustor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Corpse.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drift.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Electreel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EntA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excitrik.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Floikes.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GunneryA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GunsA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hellion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hermit.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HissA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icekerzo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Incubat.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IronCons.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kitticar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kommion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Komsaikai.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laziclaw.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mantid.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mountking.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NamuA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OriteA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oryion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pebblia.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PissPuddle.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PolibaA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ponder.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ravipion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rockin.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rocky.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roughion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScorpoA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkyteA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smogg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snowball.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snowstrom.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SteelConsA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stickum.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Streamain.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Supresloth.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TankimnidaA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thormion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toasti.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\treep.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VinyanA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VolchickA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volcipeon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vRaptor%281%29.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Waterwing.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wraith.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zapawk.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombones.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

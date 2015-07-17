@@ -1,0 +1,543 @@
+All stats are lvl 3
+
+Treep
+Hp  : 17
+Atk : 6 
+Def : 10
+SAk : 5
+SDf : 8
+Spd : 4
+Acc : 5
+Cel : 4
+lvl up
+HP + 3
+stats + 1
+
+Guns
+Hp  : 15
+Atk : 9
+Def : 8
+SAk : 6
+SDf : 6
+Spd : 4
+Acc : 6
+Cel : 3
+HP + 2
+stats + 1
+
+Bronze Construct
+Hp  : 15
+Atk : 8
+Def : 8
+SAk : 7
+SDf : 7
+Spd : 4
+Acc : 4
+Cel : 4
+HP + 2
+stats + 1
+
+Toasti
+Hp  : 15
+Atk : 5
+Def : 5
+SAk : 9
+SDf : 7
+Spd : 6
+Acc : 5
+Cel : 5
+HP + 2
+stats + 1
+
+Ponder
+Hp  : 15
+Atk : 6
+Def : 5
+SAk : 9
+SDf : 7
+Spd : 6
+Acc : 5
+Cel : 4
+HP + 2
+stats + 1
+
+Scorpo
+Hp  : 15
+Atk : 6
+Def : 6
+SAk : 7
+SDf : 7
+Spd : 4
+Acc : 6
+Cel : 6
+HP + 2
+stats + 1
+
+Hermit
+Hp  : 17
+Atk : 8
+Def : 7
+SAk : 8
+SDf : 7
+Spd : 5
+Acc : 4
+Cel : 3
+HP + 3
+stats + 1
+
+Laziclaw
+Hp  : 15
+Atk : 12
+Def : 7
+SAk : 5
+SDf : 5
+Spd : 1
+Acc : 12
+Cel : 1
+HP + 2
+stats + 1
+
+Electreel
+Hp  : 15
+Atk : 5
+Def : 6
+SAk : 9
+SDf : 7
+Spd : 5
+Acc : 6
+Cel : 5
+HP + 2
+stats +  1
+
+Poliba
+Hp  : 15
+Atk : 8
+Def : 6
+SAk : 5
+SDf : 5
+Spd : 5
+Acc : 8
+Cel : 5
+HP + 2
+stats + 1
+
+Oryion
+Hp  : 15
+Atk : 7
+Def : 6
+SAk : 5
+SDf : 5
+Spd : 8
+Acc : 6
+Cel : 5
+HP + 2
+stats + 1
+
+Kitticar
+Hp  : 15
+Atk : 6
+Def : 6
+SAk : 6
+SDf : 6
+Spd : 6
+Acc : 6
+Cel : 6
+HP + 2
+stats + 1
+
+Zombones
+Hp  : 20
+Atk : 5
+Def : 3
+SAk : 10
+SDf : 3
+Spd : 1
+Acc : 10
+Cel : 5
+HP + 4
+stats + 1
+
+Smogg
+Hp  : 13 
+Atk : 5
+Def : 5
+SAk : 10
+SDf : 5
+Spd : 3
+Acc : 6
+Cel : 8
+HP + 1
+stats + 2
+
+Incubat
+Hp  : 10
+Atk : 4
+Def : 4
+SAk : 15
+SDf : 5
+Spd : 7
+Acc : 7
+Cel : 5
+HP + 1
+stats + 2
+
+Rockin
+Hp  : 16
+Atk : 7
+Def : 10
+SAk : 3
+SDf : 8
+Spd : 4
+Acc : 5
+Cel : 4
+HP + 2
+stats + 1 
+
+Volcipeon
+Hp  : 15
+Atk : 6
+Def : 5
+SAk : 8
+SDf : 5
+Spd : 6
+Acc : 7
+Cel : 5
+HP + 2
+stats + 1
+
+Orite
+Hp  : 15
+Atk : 5
+Def : 9
+SAk : 4
+SDf : 8
+Spd : 4
+Acc : 7
+Cel : 5
+HP + 2
+stats + 1
+
+Skyte
+Hp  : 15
+Atk : 6
+Def : 4
+SAk : 6
+SDf : 4
+Spd : 8
+Acc : 8
+Cel : 6
+HP + 2
+stats + 1
+
+Icekerzo
+Hp  : 30
+Atk : 15
+Def : 10
+SAk : 15
+SDf : 5
+Spd : 4
+Acc : 4
+Cel : 4
+HP + 2
+stats + 1
+
+Drift
+Hp  : 12
+Atk : 2
+Def : 4
+SAk : 8
+SDf : 4
+Spd : 4
+Acc : 6
+Cel : 12
+HP + 1
+stats + 2
+
+Wraith
+Hp  : 15
+Atk : 2
+Def : 4
+SAk : 8
+SDf : 15
+Spd : 6
+Acc : 6
+Cel : 20
+HP + 1
+stats + 2
+
+Corpse
+Hp  : 20
+Atk : 8
+Def : 4
+SAk : 8
+SDf : 4
+Spd : 6
+Acc : 8
+Cel : 4
+HP + 3
+stats + 1
+
+Snowball
+Hp  : 15
+Atk : 5
+Def : 5
+SAk : 8
+SDf : 6
+Spd : 8
+Acc : 4
+Cel : 6
+HP + 2
+stats + 1
+
+Hellion
+Hp  : 18
+Atk : 4
+Def : 4
+SAk : 10
+SDf : 7
+Spd : 5
+Acc : 6
+Cel : 6
+HP + 3
+stats + 1
+
+Volchik
+Hp  : 15
+Atk : 6
+Def : 5
+SAk : 8
+SDf : 8
+Spd : 6
+Acc : 4
+Cel : 5
+HP + 2
+stats + 1
+
+Cion
+Hp  : 15
+Atk : 5
+Def : 5
+SAk : 8
+SDf : 8
+Spd : 4
+Acc : 4
+Cel : 8
+HP + 2
+stats + 1
+
+Cire
+Hp  : 15
+Atk : 8
+Def : 8
+SAk : 5
+SDf : 5
+Spd : 4
+Acc : 8
+Cel : 4
+HP + 2
+stats + 1
+
+Excitrik
+Hp  : 15
+Atk : 6
+Def : 6
+SAk : 4
+SDf : 8
+Spd : 6
+Acc : 6
+Cel : 6
+HP + 2
+stats + 1
+
+Roughion
+Hp  : 25
+Atk : 8
+Def : 8
+SAk : 4
+SDf : 4
+Spd : 4
+Acc : 8
+Cel : 6
+HP + 3
+stats + 1
+
+Thormion
+Hp  : 20
+Atk : 4
+Def : 10
+SAk : 4
+SDf : 10
+Spd : 4
+Acc : 4
+Cel : 6
+HP + 3
+stats + 1
+
+Kommion
+Hp  : 20
+Atk : 10
+Def : 4
+SAk : 10
+SDf : 4
+Spd : 6
+Acc : 4
+Cel : 4
+HP + 3
+stats + 1
+
+Pebblia
+Hp  : 15
+Atk : 9
+Def : 9
+SAk : 4
+SDf : 4
+Spd : 4
+Acc : 8
+Cel : 4
+HP + 2
+stats + 1
+
+Floikes
+Hp  : 15 
+Atk : 6
+Def : 6
+SAk : 7
+SDf : 5
+Spd : 6
+Acc : 7
+Cel : 5
+HP + 2
+stats + 1
+
+Aircrew
+Hp  : 15
+Atk : 5
+Def : 5
+SAk : 5
+SDf : 5
+Spd : 8
+Acc : 6
+Cel : 8
+HP + 2
+stats + 1
+
+Komsaikai
+Hp  : 15
+Atk : 8
+Def : 6
+SAk : 8
+SDf : 6
+Spd : 5
+Acc : 5
+Cel : 4
+HP + 2
+stats + 1
+
+Hiss
+Hp  : 15
+Atk : 5
+Def : 5
+SAk : 9
+SDf : 5
+Spd : 5
+Acc : 8
+Cel : 5
+HP + 2
+stats + 1
+
+Vinyan
+Hp  : 15 
+Atk : 6
+Def : 4
+SAk : 9
+SDf : 5
+Spd : 8
+Acc : 4
+Cel : 6
+HP + 2
+stats + 1
+
+Stickum
+Hp  : 15 
+Atk : 4
+Def : 4
+SAk : 5
+SDf : 5
+Spd : 5
+Acc : 8
+Cel : 15
+HP + 2
+stats + 1
+
+Mantid
+Hp  : 18 
+Atk : 10
+Def : 2
+SAk : 10
+SDf : 2
+Spd : 8
+Acc : 6
+Cel : 4
+HP + 3
+stats + 1
+
+Streamain
+Hp  : 18 
+Atk : 5
+Def : 10
+SAk : 5
+SDf : 10
+Spd : 2
+Acc : 8
+Cel : 2
+HP + 3
+stats + 1
+
+vRaptor
+Hp  : 60 
+Atk : 20
+Def : 10
+SAk : 20
+SDf : 10
+Spd : 10
+Acc : 20
+Cel : 10
+HP + 10
+stats + 3
+
+xRaptor
+Hp  : 60
+Atk : 15
+Def : 15
+SAk : 15
+SDf : 15
+Spd : 10
+Acc : 10
+Cel : 20
+HP + 10
+stats + 3
+
+zRaptor
+Hp  : 60 
+Atk : 10
+Def : 20
+SAk : 10
+SDf : 20
+Spd : 20
+Acc : 10
+Cel : 10
+HP + 10
+stats + 3
+
+template
+Hp  : 
+Atk : 
+Def : 
+SAk : 
+SDf : 
+Spd : 
+Acc : 
+Cel : 
+HP + 
+stats + 
+tot 42 base stats 

@@ -1,0 +1,13 @@
+bin\Debug\Battle!.exe
+bin\Debug\Battle!.pdb
+bin\Debug\Battle!.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Battle_.Form1.resources
+obj\Debug\Battle_.Resources.resources
+obj\Debug\Battle!.vbproj.GenerateResource.Cache
+obj\Debug\Battle!.exe
+obj\Debug\Battle!.xml
+obj\Debug\Battle!.pdb
+obj\Debug\Battle_.Form2.resources
+obj\Debug\Battle_.frmMap.resources
+obj\Debug\Battle_.Form3.resources

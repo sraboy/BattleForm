@@ -1,0 +1,11 @@
+D:\Visual Studio 2005\Projects\Battle!\Battle!\obj\Debug\Battle!.exe
+D:\Visual Studio 2005\Projects\Battle!\Battle!\obj\Debug\Battle!.xml
+D:\Visual Studio 2005\Projects\Battle!\Battle!\obj\Debug\Battle!.pdb
+D:\Visual Studio 2005\Projects\Battle!\Battle!\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005\Projects\Battle!\Battle!\obj\Debug\Battle_.Main.resources
+D:\Visual Studio 2005\Projects\Battle!\Battle!\obj\Debug\Battle_.ChooseFirst.resources
+D:\Visual Studio 2005\Projects\Battle!\Battle!\obj\Debug\Battle_.Stats.resources
+D:\Visual Studio 2005\Projects\Battle!\Battle!\obj\Debug\Battle_.frmMap.resources
+D:\Visual Studio 2005\Projects\Battle!\Battle!\obj\Debug\Battle_.Resources.resources
+D:\Visual Studio 2005\Projects\Battle!\Battle!\obj\Debug\Battle_.textures.resources
+D:\Visual Studio 2005\Projects\Battle!\Battle!\obj\Debug\Battle!.vbproj.GenerateResource.Cache

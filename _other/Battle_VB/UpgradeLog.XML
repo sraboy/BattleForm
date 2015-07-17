@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Battle!">
+</Property><Property Name="Solution File" Value="X:\My Programming\DotNET\Battle!\Battle!.sln">
+</Property><Property Name="User Options File" Value="X:\My Programming\DotNET\Battle!\Battle!.suo">
+</Property><Property Name="Date" Value="Thursday, February 05, 2009">
+</Property><Property Name="Time" Value="10:22 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Battle!.sln" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Battle!.suo" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!.suo">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Battle!.vbproj" Description="Project file successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Battle!.vbproj">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Battle!.vbproj.user" Description="Project user file successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Battle!.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Main.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Main.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Main.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Main.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\ChooseFirst.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\ChooseFirst.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\ChooseFirst.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\ChooseFirst.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Stats.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Stats.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Stats.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Stats.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\old-frmMap.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\old-frmMap.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\old-frmMap.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\old-frmMap.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Module1.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Module1.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Module2.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Module2.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\My Project\AssemblyInfo.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\My Project\Application.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\My Project\Resources.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\My Project\Settings.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\textures.Designer.vb" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\textures.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\My Project\Application.myapp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\My Project\Settings.settings" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Aircrew.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Aircrew.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Aires.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Aires.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Aurorite.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Aurorite.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Boulda.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Boulda.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\BronzeConsA.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\BronzeConsA.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Cion.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Cion.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Cire.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Cire.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Cloudd.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Cloudd.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Combustor.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Combustor.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Corpse.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Corpse.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Drift.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Drift.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Electreel.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Electreel.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\EntA.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\EntA.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Excitrik.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Excitrik.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Floikes.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Floikes.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\GunneryA.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\GunneryA.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\GunsA.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\GunsA.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Hellion.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Hellion.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Hermit.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Hermit.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\HissA.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\HissA.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Icekerzo.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Icekerzo.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Incubat.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Incubat.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\IronCons.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\IronCons.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Kitticar.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Kitticar.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Kommion.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Kommion.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Komsaikai.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Komsaikai.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Laziclaw.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Laziclaw.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\mantid.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\mantid.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Mountking.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Mountking.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\NamuA.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\NamuA.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\OriteA.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\OriteA.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Oryion.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Oryion.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Pebblia.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Pebblia.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\PissPuddle.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\PissPuddle.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\PolibaA.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\PolibaA.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Ponder.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Ponder.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Ravipion.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Ravipion.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Rockin.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Rockin.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Rocky.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Rocky.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Roughion.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Roughion.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\ScorpoA.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\ScorpoA.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\SkyteA.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\SkyteA.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Smogg.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Smogg.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Snowball.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Snowball.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Snowstrom.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Snowstrom.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\SteelConsA.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\SteelConsA.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Stickum.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Stickum.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Streamain.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Streamain.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Supresloth.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Supresloth.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\TankimnidaA.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\TankimnidaA.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Thormion.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Thormion.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Toasti.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Toasti.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\treep.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\treep.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\VinyanA.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\VinyanA.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\VolchickA.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\VolchickA.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Volcipeon.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Volcipeon.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\vRaptor(1).bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\vRaptor(1).bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Waterwing.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Waterwing.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Wraith.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Wraith.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Zapawk.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Zapawk.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Resources\Zombones.bmp" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Resources\Zombones.bmp">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Main.resx" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Main.resx">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\ChooseFirst.resx" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\ChooseFirst.resx">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Stats.resx" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\Stats.resx">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\old-frmMap.resx" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\old-frmMap.resx">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\My Project\Resources.resx" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\textures.resx" Description="File successfully backed up as X:\My Programming\DotNET\Battle!\Backup\Battle!\textures.resx">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Battle!.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Battle!" Source="Battle!\Battle!.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Battle!.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Battle!.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Battle!" Source="Battle!\Battle!.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
